@@ -1,35 +1,14 @@
-import React, {Component} from 'react';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import React, { Fragment} from 'react';
 
-import './App.css';
+import './css/index.css'
+import Navbar from './components/Navbar';
+import Content from './components/Content';
 
-class App extends Component{
-  render(){
-    return (
-      /* Uses a transparent header that draws on top of the layout's background */ 
-      < div style = {{ height: '300px', position: 'relative' }}>
-    <Layout style={{ background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover' }}>
-      <Header transparent title="Title" style={{ color: 'white' }}>
-        <Navigation>
-          <a href="/">Link</a>
-          <a href="/">Link</a>
-          <a href="/">Link</a>
-          <a href="/">Link</a>
-        </Navigation>
-      </Header>
-      <Drawer title="Title">
-        <Navigation>
-          <a href="/">Link</a>
-          <a href="/">Link</a>
-          <a href="/">Link</a>
-          <a href="/">Link</a>
-        </Navigation>
-      </Drawer>
-      <Content />
-    </Layout>
-</div >
-    );
-  }
-}
+const App = () => (
+      <Fragment>
+      <Navbar />
+      <Content/>
+      </Fragment >
+)
 
 export default App;
