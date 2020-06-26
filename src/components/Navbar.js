@@ -46,19 +46,20 @@ const Navbar = () => {
                 {/* NAV LINK 2ND STARTS */}
                 <li class="nav-item">
                     <a href="/" class="nav-link">
-                        <i class="fa fa-envelope nav-icon" aria-hidden="true"></i>
-                        <span class="link-text">CONTACT</span>
+                        <i class="fa fa-file-code-o nav-icon" aria-hidden="true"></i>
+                        <span class="link-text">PROJECTS</span>
                     </a>
                 </li>
                 {/* NAV LINK 2ND ENDS */}
                 {/* NAV LINK 3RD STARTS */}
                 <li class="nav-item">
                     <a href="/" class="nav-link">
-                        <i class="fa fa-file-code-o nav-icon" aria-hidden="true"></i>
-                        <span class="link-text">PROJECTS</span>
+                        <i class="fa fa-envelope nav-icon" aria-hidden="true"></i>
+                        <span class="link-text">CONTACT</span>
                     </a>
                 </li>
-                {/* NAV LINK 4TH ENDS */}
+                {/* NAV LINK 3RD ENDS */}
+                {/* NAV LINK 4TH START */}
                 <li class="nav-item">
                     <a href="/" class="nav-link">
                         <i class="fa fa-moon-o nav-icon" aria-hidden="true"></i>
