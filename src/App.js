@@ -6,7 +6,7 @@ import Content from './components/Content';
 
 const App = () => (
       <Fragment>
-      <Navbar />
+      {/* <Navbar /> */}
       <Content/>
       </Fragment >
 )
