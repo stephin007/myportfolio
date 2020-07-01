@@ -6,8 +6,8 @@ import Content from './components/Content';
 
 const App = () => (
       <Fragment>
-      {/* <Navbar /> */}
-      <Content/>
+      <Navbar />
+      {/* <Content/> */}
       </Fragment >
 )
 

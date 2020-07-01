@@ -1,1 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+.logo img{
+    width: 50px;
+}
+
+.bar{
+    width: 20px;
+    margin: 3px;
+    height: 4px;
+    color: rgb(139, 139, 137);
+    background: grey;
+}
+
+.btn{
+    border: 1px solid rgb(156, 156, 156);
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.logobtn{
+     background: #000;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 0.5px solid orange;
+     padding: 5px;
+     padding-bottom: 1px;
+}
+
+ul{
+    list-style: none;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.showNav{
+    height: 180px;
+}
+
+ul li a{
+    background: #585858;
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+
+ul li a:hover{
+    background: #353535;
+    color: orange;
+    padding-left: 20px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (min-width: 640px){
+    nav{
+        background: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        height: auto; 
+    }
+
+    .showNav{
+        height: auto;
+    }
+
+    nav ul a{
+        background : transparent;
+        padding: 18px;
+    }
+
+    .logobtn{
+        border: none;
+        padding-top: 4px;
+    }
+
+    ul li a:hover{
+        background: none;
+        color: orange;
+        padding-left: -10px;
+    }
+}
