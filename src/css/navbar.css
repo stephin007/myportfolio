@@ -55,7 +55,7 @@ ul li a{
 
 ul li a:hover{
     background: #353535;
-    color: orange;
+    color: #ca8f20;
     padding-left: 20px;
 }
 
@@ -95,7 +95,7 @@ ul li a:hover{
 
     ul li a:hover{
         background: none;
-        color: orange;
+        color: #ca8f20;
         padding-left: -10px;
     }
 }
