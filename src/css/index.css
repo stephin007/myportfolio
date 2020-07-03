@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 
+/* Specific Style for home page */
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* Specific Style for home page (END)*/
+
 :root {
   font-size: 16px;
   font-family: 'Source Code Pro', monospace;
@@ -11,5 +21,19 @@
   --bg-secondary: #141418;
   --transition-speed: 600ms;
 }
+
+/* Custom scrollbar css starts here  */
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+/* Custom scrollbar css ends here */
 
 
