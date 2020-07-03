@@ -1,4 +1,6 @@
 import React,{Fragment, Component} from 'react'
+import {Link} from 'react-router-dom'
+
 import '../css/navbar.css'
 
 // logo
@@ -15,6 +17,12 @@ class Navbar extends Component {
         })
     }
 
+    closeNav = () => {
+        this.setState({
+            isOpen: false
+        })
+    }
+
     
     
     render(){
@@ -24,9 +32,9 @@ class Navbar extends Component {
                 <nav>
                     <div className="logobtn">
                         <div className="logo">
-                        <a href="#">
+                        <Link to="/" onClick={this.closeNav}>
                             <img src={logo} alt=""/>
-                        </a>
+                        </Link>
                         </div>
                         <div className="btn" onClick={this.handleClick}>
                             <div className="bar"></div>
@@ -37,10 +45,10 @@ class Navbar extends Component {
 
 
                     <ul className={this.state.isOpen ? 'showNav':'undefined'}>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><Link to='/' onClick={this.closeNav}>HOME</Link></li>
+                        <li><Link to='/about' onClick={this.closeNav}>ABOUT</Link></li>
+                        <li><Link to='/portfolio' onClick={this.closeNav}>PORTFOLIO</Link></li>
+                        <li><Link to='/contact' onClick={this.closeNav}>CONTACT</Link></li>
                     </ul>
                 </nav>    
             </Fragment>
