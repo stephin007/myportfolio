@@ -19,7 +19,7 @@ class Home extends Component{
                                     <div className="social-links">
                                         <a href="https://github.com/stephin007" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-github"></i></a>
                                         <a href="https://twitter.com/reji_stephin" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-twitter"></i></a>
-                                        <a href="https://wa.me/918860102173?text=Interested%20to%20talk%20with%20you" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-whatsapp"></i></a>
+                                        <a href="https://wa.me/918860102173?text=Would%20love%20to%20talk%20with%20you" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-whatsapp"></i></a>
                                         <a href="https://www.facebook.com/stephin.reji1998" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-facebook"></i></a>
                                         <a href="https://www.instagram.com/the_spectacled_one/?hl=en" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-instagram" ></i></a>
                                     </div>
