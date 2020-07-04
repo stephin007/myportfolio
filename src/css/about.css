@@ -1,0 +1,85 @@
+.section .container{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #f2f2fc;
+}
+
+.section-title{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.section-title h2{
+    font-size: 40px;
+    color: goldenrod;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-title h2::before{
+    content: '';
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+}
+
+.section-title h2::after{
+    content: '';
+    height: 4px;
+    width: 25px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    background-color: black;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.padd-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about .about-content{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.about .about-content .about-text h3 span{
+    color: goldenrod;
+}
+
+.about .about-content .about-text p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #86785c;
+    margin: 0;
+}
