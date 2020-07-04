@@ -15,7 +15,7 @@ class Home extends Component{
                                 <div className= "intro">
                                     <img src={profileimage} alt="Profile Img" className="shadow-img" />
                                     <h1>Stephin T Reji</h1>
-                                    <p>I'm a Customer Sucess Manager with a little knowledge about Front End Development</p>
+                                    <p>I am a technically savvy customer success intern who is constantly striving for change and betterment</p>
                                     <div className="social-links">
                                         <a href="https://github.com/stephin007" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-github"></i></a>
                                         <a href="https://twitter.com/reji_stephin" target="_blank" rel = "noopener noreferrer"><i class= "fa fa-twitter"></i></a>
