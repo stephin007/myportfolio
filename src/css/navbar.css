@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -47,6 +49,7 @@ ul li a{
     background: #585858;
     display: block;
     color: #fff;
+    font-family: 'Bebas Neue', cursive;
     padding: 10px;
     text-decoration: none;
     transition: all 0.5s ease;

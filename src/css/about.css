@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 .section .container{
     padding-top: 50px;
     padding-bottom: 70px;
@@ -13,6 +16,8 @@
 .section-title h2{
     font-size: 40px;
     color: goldenrod;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
     font-weight: 700;
     margin: 0;
     position: relative;
@@ -71,10 +76,12 @@
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 700;
+    font-family: 'Inconsolata', monospace;
 }
 
 .about .about-content .about-text h3 span{
     color: goldenrod;
+    font-family: 'Inconsolata', monospace;
 }
 
 .about .about-content .about-text p{
@@ -82,4 +89,5 @@
     line-height: 25px;
     color: #86785c;
     margin: 0;
+    font-family: 'Inconsolata', monospace;
 }

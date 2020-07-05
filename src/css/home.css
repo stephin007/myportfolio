@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 .section{
     background-color: #f2f2fc;
-    min-height: 100vh;
+    min-height: 50vh;
     display: block;
     padding: 0 30px;
 }
@@ -17,7 +20,7 @@
 }
 
 .home{
-    min-height: 90vh;
+    min-height: 100vh;
     display: -ms-flexbox;
     display: flex;
 }
@@ -34,16 +37,19 @@
 }
 
 .home .intro h1{
-    font-size: 30px;
+    font-size: 35px;
     color: black;
-    font-weight: 700;
+    font-weight: 100;
     margin: 20px 0 8px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
 }
 
 .home .intro p{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0;
+    font-family: 'Inconsolata', monospace;
     line-height: 22px;
     color: #ca8f20;
 }
