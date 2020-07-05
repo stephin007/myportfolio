@@ -5,8 +5,16 @@
     padding-top: 50px;
     padding-bottom: 70px;
     background-color: #f2f2fc;
+    min-height: 100vh;
 }
 
+.conatiner{
+    min-height: 100vh;
+}
+
+.about{
+    min-height: 100vh;
+}
 .section-title{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
