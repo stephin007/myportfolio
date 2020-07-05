@@ -9,7 +9,7 @@ class About extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="section-title padd-15">
-                                <h2>About Me</h2>
+                                <h2>About Myself</h2>
                             </div>
                         </div>
                         <div className="row">
