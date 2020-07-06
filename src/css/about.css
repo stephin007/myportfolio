@@ -109,7 +109,7 @@
     -ms-flex: 0 0 60%;
     flex: 0 0 60%;
     max-width: 60%;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .about .about-content .personal-info .info-item{
@@ -162,11 +162,10 @@
 }
 
 .about .about-content .skills{
-    /* background-color: blue; */
     -ms-flex: 0 0 40%;
     flex: 0 0 40%;
     max-width: 40%;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .about .about-content .skills .skill-item{
@@ -176,7 +175,7 @@
 }
 
 .about .about-content .skills .skill-item h5{
-    line-height: 33px;
+    line-height: 19px;
     font-weight: 600;
     color: black;
     font-size: 16px;
@@ -186,7 +185,7 @@
 
 .about .about-content .skills .skill-item .progress{
     background-color: #e3e3e3;
-    height: 8px;
+    height: 7px;
     border-radius: 4px;
     width: 100%;
     position: relative;
@@ -215,4 +214,38 @@
     color: #86785c;
 }
 
+.about .about-content .education{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+
+.about .about-content .experience{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+
+.about .about-content h3.title{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+}
+
+.about .about-content .timeline-box{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .timeline{
+    background-color: #fdf9ff;
+    padding: 30px 15px;
+    border: 1px solid #d4d4e3;
+    border-radius: 10px;
+    width: 100%;
+}
 

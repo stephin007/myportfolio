@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
 
 import '../css/about.css'
 
@@ -10,7 +9,7 @@ class About extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="section-title padd-15">
-                                <h2>About Myself</h2>
+                                <h2>About Me</h2>
                             </div>
                         </div>
                         <div className="row">
@@ -18,7 +17,7 @@ class About extends Component{
                                 <div className="row">
                                     <div className="about-text padd-15 ">
                                         <h3>Communication is the <span>key</span></h3>
-                                        <p>Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -29,9 +28,6 @@ class About extends Component{
                                             </div>
                                             <div className="info-item padd-15">
                                                 <p>Age : <span>22</span></p>
-                                            </div>
-                                            <div className="info-item padd-15">
-                                                <p>Website : <span>www.stephinreji.me</span></p>
                                             </div>
                                             <div className="info-item padd-15">
                                                 <p>Email : <span>stephinreji123@gmail.com</span></p>
@@ -84,6 +80,38 @@ class About extends Component{
                                                 </div>
                                             </div>
                                         </div>   
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="education padd-15">
+                                        <h3 className="title">
+                                        Education
+                                        </h3>
+                                        <div className="row">
+                                            <div className="timeline-box padd-15">
+                                                <div className="timeline shadow-dark">
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i> 2013-2015
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Masters in Computer Science
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                            </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+
+                                    </div>
+                                    <div className="experience padd-15">
+                                        <h3 className="title">
+                                            Experience 
+                                        </h3>
+                                        
                                     </div>
                                 </div>
                             </div>
