@@ -293,8 +293,9 @@
 .about .about-content .timeline .timeline-date{
    font-size: 14px;
    font-weight: 400; 
+   margin-top: -5px;
    color: #86785c;
-   padding-bottom: 10px;
+   margin-bottom: 12px;
 }
 
 .about .about-content .timeline .timeline-date .fa{
