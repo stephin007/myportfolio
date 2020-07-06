@@ -22,6 +22,9 @@ class About extends Component{
                                 </div>
                                 <div className="row">
                                     <div className="personal-info padd-15">
+                                        <h3 className="pi-title">
+                                            Personal Information
+                                        </h3>
                                         <div className="row">
                                             <div className="info-item padd-15">
                                                 <p>Birthday : <span>22 June 1998</span></p>
@@ -51,6 +54,9 @@ class About extends Component{
                                     </div>
                                     <div className="skills padd-15">
                                         <div className="row">
+                                            <h3 className="pi-title">
+                                                Skills
+                                            </h3>
                                             <div className="skill-item padd-15">
                                                 <h5>Javascript</h5>
                                                 <div className="progress">
@@ -90,6 +96,7 @@ class About extends Component{
                                         <div className="row">
                                             <div className="timeline-box padd-15">
                                                 <div className="timeline shadow-dark">
+                                                    {/* Timeline-item start */}
                                                     <div className="timeline-item">
                                                             <div className="circle-dot"></div>
                                                             <h6 className="timeline-date">
@@ -102,6 +109,35 @@ class About extends Component{
                                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
                                                             </p>
                                                     </div>
+                                                    {/* Timeline-item end */}
+                                                    {/* Timeline-item start */}
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i> 2009-2013
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Bachelors in Computer Science
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                            </p>
+                                                    </div>
+                                                    {/* Timeline-item end */}
+                                                    {/* Timeline-item start */}
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i> 2008-2009
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Higher Secondary(XII)
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                            </p>
+                                                    </div>
+                                                    {/* Timeline-item end */}
                                                 </div>
                                             </div>
                                     </div>
@@ -111,7 +147,54 @@ class About extends Component{
                                         <h3 className="title">
                                             Experience 
                                         </h3>
-                                        
+                                        <div className="row">
+                                            <div className="timeline-box padd-15">
+                                                <div className="timeline shadow-dark">
+                                                    {/* Timeline-item start */}
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i> 2013-2015
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Masters in Computer Science
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                            </p>
+                                                    </div>
+                                                    {/* Timeline-item end */}
+                                                    {/* Timeline-item start */}
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i> 2009-2013
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Bachelors in Computer Science
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                            </p>
+                                                    </div>
+                                                    {/* Timeline-item end */}
+                                                    {/* Timeline-item start */}
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i> 2008-2009
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Higher Secondary(XII)
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                            </p>
+                                                    </div>
+                                                    {/* Timeline-item end */}
+                                                </div>
+                                            </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
