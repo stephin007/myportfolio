@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 
 const App = () => (
       <Router>
@@ -16,7 +16,7 @@ const App = () => (
                   <Switch>
                         <Route exact path='/' component={Home}/>
                         <Route exact path='/about' component={About}/>
-                        <Route exact path='/portfolio' component={Portfolio}/>
+                        <Route exact path='/projects' component={Project}/>
                         <Route exact path='/contact' component={Contact}/>
                   </Switch>
             </Fragment >

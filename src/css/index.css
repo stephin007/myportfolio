@@ -30,6 +30,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: goldenrod;
+  border-radius: 40px;
 }
 /* Custom scrollbar css ends here */
 
