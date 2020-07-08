@@ -12,10 +12,6 @@
     min-height: 100vh;
 }
 
-.container{
-    min-height: 100vh;
-}
-
 .about{
     min-height: 100vh;
 }
@@ -138,6 +134,15 @@
     color: #86785c;
     margin-left: 4px;
     display: inline-block;
+}
+
+.about .about-content .personal-info .info-item p span a{
+    color: #86785c;
+}
+
+.about .about-content .personal-info .info-item p span a:hover{
+    background: none;
+    color: black;
 }
 
 .about .about-content .personal-info .buttons{
@@ -315,4 +320,63 @@
     line-height: 25px;
     color: #86785c;
     margin: 0;
+}
+
+/* Responsive */
+ 
+@media (max-width: 1199px){
+    .about .about-content .personal-info .info-item p span{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 995px){
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 767px){
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 418px){
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .about .about-content .personal-info .info-item p{
+        display: block;
+        margin-left: 0;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px){
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+
+    .about .about-content .personal-info .info-item p{
+        display: block;
+        margin-left: 0;
+        padding-top: 5px;
+        font-size: 13px;
+    }
 }

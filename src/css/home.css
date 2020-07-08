@@ -77,3 +77,11 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+/* Responsive */
+
+@media (max-width: 1199px){
+    .main-content{
+        padding-left: 0;
+    }
+}

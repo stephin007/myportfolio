@@ -6,7 +6,7 @@ import './css/index.css'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Project from './components/Project';
 
 const App = () => (
@@ -17,7 +17,7 @@ const App = () => (
                         <Route exact path='/' component={Home}/>
                         <Route exact path='/about' component={About}/>
                         <Route exact path='/projects' component={Project}/>
-                        <Route exact path='/contact' component={Contact}/>
+                        {/* <Route exact path='/contact' component={Contact}/> */}
                   </Switch>
             </Fragment >
       </Router>

@@ -127,7 +127,7 @@ class Portfolio extends Component{
                     </div>
                 </section>
 
-                <div className="lightbox">
+                {/* <div className="lightbox">
                     <div className="lightbox-content">
                         <div className="lightbox-close">&times;</div>
                         <img src={p2} alt="" className="lightbox-img"/>
@@ -148,7 +148,7 @@ class Portfolio extends Component{
                         <i className="fa fa-angle-right"></i>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </Fragment>    
             )

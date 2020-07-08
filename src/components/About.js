@@ -33,24 +33,24 @@ class About extends Component{
                                                 <p>Age : <span>22</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Email : <span>stephinreji123@gmail.com</span></p>
+                                                <p>Email : <span><a href="mailto: stephinreji123@gmail.com">stephinreji123@gmail.com</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
                                                 <p>Degree : <span>B.Tech</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Phone : <span>+91 8920 788 383</span></p>
+                                                <p>Phone : <span><a href="tel:+91 8920 788 383">+91 8920 788 383</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
                                                 <p>City : <span>Delhi</span></p>
                                             </div>
                                         </div>
-                                        <div className="row">
+                                        {/* <div className="row">
                                             <div className="buttons padd-15">
                                                 <a href="https://www.google.com" className="bn">Download Resume</a>
                                                 <a href="https://www.google.com" className="bn bn-space">Hire Me</a>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="skills padd-15">
                                         <div className="row">
