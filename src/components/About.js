@@ -44,6 +44,9 @@ class About extends Component{
                                             <div className="info-item padd-15">
                                                 <p>City : <span>Delhi</span></p>
                                             </div>
+                                            <div className="info-item padd-15" id="language">
+                                                <p>Languages Known : <span>English, Hindi, Malayalam</span></p>
+                                            </div>
                                         </div>
                                         {/* <div className="row">
                                             <div className="buttons padd-15">
@@ -55,7 +58,77 @@ class About extends Component{
                                     <div className="skills padd-15">
                                         <div className="row">
                                             <h3 className="pi-title">
-                                                Skills
+                                                Interpersonal Skills
+                                            </h3>
+                                            <div className="skill-item padd-15">
+                                                <h5>Communication</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "95%"}}></div>
+                                                    <div className="skill-percent">95%</div>
+                                                </div>
+                                            </div>
+                                            <div className="skill-item padd-15">
+                                                <h5>Customer Service Skills</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "90%"}}></div>
+                                                    <div className="skill-percent">90%</div>
+                                                </div>
+                                            </div>
+                                            <div className="skill-item padd-15">
+                                                <h5>Team Work</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "90%"}}></div>
+                                                    <div className="skill-percent">90%</div>
+                                                </div>
+                                            </div>
+                                            <div className="skill-item padd-15">
+                                                <h5>Attention to Detail</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "92%"}}></div>
+                                                    <div className="skill-percent">92%</div>
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                    <div className="skills padd-15" id="computerskills">
+                                        <div className="row">
+                                            <h3 className="pi-title">
+                                                Computer Skills
+                                            </h3>
+                                            <div className="skill-item padd-15">
+                                                <h5>Google Sheets/Docs</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "80%"}}></div>
+                                                    <div className="skill-percent">80%</div>
+                                                </div>
+                                            </div>
+                                            <div className="skill-item padd-15">
+                                                <h5>Notion</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "75%"}}></div>
+                                                    <div className="skill-percent">75%</div>
+                                                </div>
+                                            </div>
+                                            <div className="skill-item padd-15">
+                                                <h5>Jira</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "65%"}}></div>
+                                                    <div className="skill-percent">65%</div>
+                                                </div>
+                                            </div>
+                                            <div className="skill-item padd-15">
+                                                <h5>Adobe XD/Figma</h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style= {{width: "60%"}}></div>
+                                                    <div className="skill-percent">60%</div>
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                    <div className="skills padd-15" id="tools">
+                                        <div className="row">
+                                            <h3 className="pi-title">
+                                                Languages/Tools/Libraries Known
                                             </h3>
                                             <div className="skill-item padd-15">
                                                 <h5>Javascript</h5>
@@ -89,6 +162,47 @@ class About extends Component{
                                     </div>
                                 </div>
                                 <div className="row">
+                                <div className="experience padd-15">
+                                        <h3 className="title">
+                                            Work Experience 
+                                        </h3>
+                                        <div className="row">
+                                            <div className="timeline-box padd-15">
+                                                <div className="timeline shadow-dark">
+                                                    {/* Timeline-item start */}
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i>September 2019 - Present
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Civil Machines Technologies Pvt. Ltd.
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                - Currently Working as a Customer Success Intern <br/>
+                                                                - Communication with customers via phone or email and to provode high-quality support and resolution to their issues is one of my daily tasks.
+                                                            </p>
+                                                    </div>
+                                                    {/* Timeline-item end */}
+                                                    {/* Timeline-item start */}
+                                                    <div className="timeline-item">
+                                                            <div className="circle-dot"></div>
+                                                            <h6 className="timeline-date">
+                                                                <i className="fa fa-calendar"></i> June 2019 - July 2019
+                                                            </h6>
+                                                            <h4 className="timeline-title">
+                                                                Bolt : IoT Platform
+                                                            </h4>
+                                                            <p className="timeline-text">
+                                                                - Worked as a Social Media Marketing Intern <br/>
+                                                                - My main work was to make posters and strategise how to increase the reach of the product to a broader public socially.
+                                                            </p>
+                                                    </div>
+                                                    {/* Timeline-item end */}
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
                                     <div className="education padd-15">
                                         <h3 className="title">
                                         Education
@@ -100,13 +214,13 @@ class About extends Component{
                                                     <div className="timeline-item">
                                                             <div className="circle-dot"></div>
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2013-2015
+                                                                <i className="fa fa-calendar"></i> 2016 - 2020
                                                             </h6>
                                                             <h4 className="timeline-title">
-                                                                Masters in Computer Science
+                                                                Bachelors in Electronics and Communication
                                                             </h4>
                                                             <p className="timeline-text">
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                                Noida Institue of Engineering and Technology, Greater Noida, Uttar Pradesh
                                                             </p>
                                                     </div>
                                                     {/* Timeline-item end */}
@@ -114,13 +228,13 @@ class About extends Component{
                                                     <div className="timeline-item">
                                                             <div className="circle-dot"></div>
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2009-2013
+                                                                <i className="fa fa-calendar"></i> 2009 - 2014
                                                             </h6>
                                                             <h4 className="timeline-title">
-                                                                Bachelors in Computer Science
+                                                                Senior Secondary Education(XI-XII)
                                                             </h4>
                                                             <p className="timeline-text">
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                                Assisi Convent Senior Secondary School, Noida, Uttar Pradesh
                                                             </p>
                                                     </div>
                                                     {/* Timeline-item end */}
@@ -128,13 +242,13 @@ class About extends Component{
                                                     <div className="timeline-item">
                                                             <div className="circle-dot"></div>
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2008-2009
+                                                                <i className="fa fa-calendar"></i> 2008 - 2009
                                                             </h6>
                                                             <h4 className="timeline-title">
-                                                                Higher Secondary(XII)
+                                                                Secondary Education(X)
                                                             </h4>
                                                             <p className="timeline-text">
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
+                                                                Assisi Convent Senior Secondary School, Noida, Uttar Pradesh
                                                             </p>
                                                     </div>
                                                     {/* Timeline-item end */}
@@ -142,59 +256,6 @@ class About extends Component{
                                             </div>
                                     </div>
 
-                                    </div>
-                                    <div className="experience padd-15">
-                                        <h3 className="title">
-                                            Experience 
-                                        </h3>
-                                        <div className="row">
-                                            <div className="timeline-box padd-15">
-                                                <div className="timeline shadow-dark">
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2013-2015
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Masters in Computer Science
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2009-2013
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Bachelors in Computer Science
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2008-2009
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Higher Secondary(XII)
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto.
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                </div>
-                                            </div>
-                                    </div>
                                     </div>
                                 </div>
                             </div>

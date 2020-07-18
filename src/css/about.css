@@ -109,9 +109,9 @@
 
 .about .about-content .personal-info{
     /* background-color: red; */
-    -ms-flex: 0 0 60%;
-    flex: 0 0 60%;
-    max-width: 60%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-top: 25px;
 }
 
@@ -121,9 +121,15 @@
     max-width: 50%;
 }
 
+#language{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .about .about-content .personal-info .info-item p{
     font-weight: 600;
-    padding: 10px 0;
+    padding: 16.5px 0;
     font-size: 16px;
     margin: 0;
     border-bottom: 1px solid #e8dfec;
@@ -178,10 +184,22 @@
 }
 
 .about .about-content .skills{
-    -ms-flex: 0 0 40%;
-    flex: 0 0 40%;
-    max-width: 40%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-top: 35px;
+}
+
+#computerskills{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+#tools{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .about .about-content .skills .skill-item{
