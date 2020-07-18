@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 
 import '../css/home.css'
 
-import profileimage from '../img/homeimg.jpg'
+import profileimage from '../img/homeimg.png'
 
 class Home extends Component{
     render(){    

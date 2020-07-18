@@ -138,11 +138,15 @@
 
 .about .about-content .personal-info .info-item p span a{
     color: #86785c;
+    animation:blinkingText 1.5s infinite;
 }
 
-.about .about-content .personal-info .info-item p span a:hover{
-    background: none;
-    color: black;
+@keyframes blinkingText{
+    0%{     color: #86785c;    }
+    49%{    color: #86785c; }
+    60%{    color: goldenrod; }
+    99%{    color: goldenrod;  }
+    100%{   color: goldenrod;    }
 }
 
 .about .about-content .personal-info .buttons{
