@@ -8,8 +8,9 @@
 # testing
 /coverage
 
-# firebase
-.firebase/
+.firebase
+
+/.vscode
 
 # production
 /build

@@ -39,7 +39,7 @@ class Portfolio extends Component{
                                         <h4>A Weather Application||Made using ReactJS</h4>
                                         <p>It uses an Open Weather API to fetch weather details</p>
                                         <div className="icon">
-                                        <a href="https://weatherman-live.web.app/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                                        <a href="https://weatherman.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@ class Portfolio extends Component{
                                         <h4>Photographer's Portfolio||Made using HTML/CSS</h4>
                                         <p>Lorem ipsum dolor sit amet.</p>
                                         <div className="icon">
-                                        <a href="https://chitra-haar.web.app/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                                        <a href="https://chitrahaar.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@ class Portfolio extends Component{
                                         <h4>PipBoy||Made using Bootstrap</h4>
                                         <p>This is the main screen of a PipBoy from fallout4</p>
                                         <div className="icon">
-                                        <a href="https://livepipboy.web.app/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                                        <a href="https://pipboy.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ class Portfolio extends Component{
                                         <h4>Coming Soon||Made Using HTML/CSS</h4>
                                         <p>This is a coming soon page with an active countdown timer</p>
                                         <div className="icon">
-                                        <a href="https://port-1998.web.app" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                                        <a href="https://timer.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                 </div>
