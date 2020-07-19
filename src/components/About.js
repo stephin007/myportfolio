@@ -17,7 +17,13 @@ class About extends Component{
                                 <div className="row">
                                     <div className="about-text padd-15 ">
                                         <h3>Communication is the <span>key</span></h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                                        <p>Hi, I am Stephin T Reji. I am an aspiring customer success manager with a vision to develop sustainable strategies aimed at solving customer problems with least resources and maximum output.<br/>
+                                        I am currently working as a customer success intern with the responsibility to maintain constant communication with the company's clients to provide high quality support and problem resolution.
+                                        I am also equipped to provide beneficial recommendations and advice to clients.<br/>
+                                        Developing monthly client status reports is another of my expertise in the company. <br/>
+                                        As an employee, I am highly detail-oriented and result-driven. My vision is to improve the quality and efficiency of customer service in the company I work in.
+                                        I have efficient problem solving skills especially in high pressure situations.
+                                        I am a team player with the ability to maintain effective communication between my clients and technology and other buisness lines at the company.</p>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -180,7 +186,7 @@ class About extends Component{
                                                             </h4>
                                                             <p className="timeline-text">
                                                                 - Currently Working as a Customer Success Intern <br/>
-                                                                - Communication with customers via phone or email and to provode high-quality support and resolution to their issues is one of my daily tasks.
+                                                                - Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks.
                                                             </p>
                                                     </div>
                                                     {/* Timeline-item end */}
