@@ -148,14 +148,14 @@ class About extends Component{
                                                 <h5>HTML/CSS</h5>
                                                 <div className="progress">
                                                     <div className="progress-in" style= {{width: "80%"}}></div>
-                                                    <div className="skill-percent">70%</div>
+                                                    <div className="skill-percent">80%</div>
                                                 </div>
                                             </div>
                                             <div className="skill-item padd-15">
                                                 <h5>GitHub</h5>
                                                 <div className="progress">
                                                     <div className="progress-in" style= {{width: "70%"}}></div>
-                                                    <div className="skill-percent">60%</div>
+                                                    <div className="skill-percent">70%</div>
                                                 </div>
                                             </div>
                                         </div>   
