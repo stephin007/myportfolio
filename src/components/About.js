@@ -57,7 +57,7 @@ class About extends Component{
                                     </div>
                                     <div className="skills padd-15">
                                         <div className="row">
-                                            <h3 className="pi-title">
+                                            <h3 className="pi-title padd-15">
                                                 Interpersonal Skills
                                             </h3>
                                             <div className="skill-item padd-15">
@@ -92,7 +92,7 @@ class About extends Component{
                                     </div>
                                     <div className="skills padd-15" id="computerskills">
                                         <div className="row">
-                                            <h3 className="pi-title">
+                                            <h3 className="pi-title padd-15">
                                                 Computer Skills
                                             </h3>
                                             <div className="skill-item padd-15">
@@ -127,7 +127,7 @@ class About extends Component{
                                     </div>
                                     <div className="skills padd-15" id="tools">
                                         <div className="row">
-                                            <h3 className="pi-title">
+                                            <h3 className="pi-title padd-15">
                                                 Languages/Tools/Libraries Known
                                             </h3>
                                             <div className="skill-item padd-15">
