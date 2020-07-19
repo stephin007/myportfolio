@@ -128,7 +128,7 @@ class About extends Component{
                                     <div className="skills padd-15" id="tools">
                                         <div className="row">
                                             <h3 className="pi-title padd-15">
-                                                Languages/Tools/Libraries Known
+                                                Languages/Tools/Libraries
                                             </h3>
                                             <div className="skill-item padd-15">
                                                 <h5>Javascript</h5>
