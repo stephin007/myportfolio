@@ -344,6 +344,16 @@
     margin: 0;
 }
 
+.about .about-content .timeline .timeline-text span{
+    font-weight: 500;
+    color: black;
+}
+
+.underline{
+    text-decoration: underline;
+    display: inline;
+}
+
 /* Responsive */
  
 @media (max-width: 1199px){
