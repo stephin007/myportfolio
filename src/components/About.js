@@ -185,6 +185,8 @@ class About extends Component{
                                                                 Civil Machines Technologies Pvt. Ltd.
                                                             </h4>
                                                             <p className="timeline-text">
+                                                                <span>Job Title: Customer Success Intern</span><br/>
+                                                                <div className="underline"> Work Responsibility</div><br/>
                                                                 - Currently Working as a Customer Success Intern <br/>
                                                                 - Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks.
                                                             </p>
@@ -200,7 +202,9 @@ class About extends Component{
                                                                 Bolt : IoT Platform
                                                             </h4>
                                                             <p className="timeline-text">
-                                                                - Worked as a Social Media Marketing Intern <br/>
+                                                            <span>Job Title: Social Media Marketing Intern</span><br/>
+                                                            <div className="underline"> Work Responsibility</div><br/>
+                                                                - Worked as a Social Media Marketing Intern.<br/>
                                                                 - My main work was to make posters and strategise how to increase the reach of the product to a broader public socially.
                                                             </p>
                                                     </div>
@@ -234,7 +238,7 @@ class About extends Component{
                                                     <div className="timeline-item">
                                                             <div className="circle-dot"></div>
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2009 - 2014
+                                                                <i className="fa fa-calendar"></i> 2014 - 2016
                                                             </h6>
                                                             <h4 className="timeline-title">
                                                                 Senior Secondary Education(XI-XII)
@@ -248,7 +252,7 @@ class About extends Component{
                                                     <div className="timeline-item">
                                                             <div className="circle-dot"></div>
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2008 - 2009
+                                                                <i className="fa fa-calendar"></i> 2013 - 2014
                                                             </h6>
                                                             <h4 className="timeline-title">
                                                                 Secondary Education(X)
