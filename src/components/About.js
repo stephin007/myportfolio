@@ -39,7 +39,7 @@ class About extends Component{
                                                 <p>Age : <span>22</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Email : <span><a href="mailto: stephinreji123@gmail.com">stephinreji123@gmail.com</a></span></p>
+                                                <p>Email : <span><a href="mailto: mail@stephinreji.me">mail@stephinreji.me</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
                                                 <p>Degree : <span>B.Tech</span></p>
