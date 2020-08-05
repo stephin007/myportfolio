@@ -7,6 +7,7 @@ import p1 from '../img/p1.png'
 import p2 from '../img/p2.png'
 import p3 from '../img/p3.png'
 import p4 from '../img/p4.png'
+import p5 from '../img/p5.png'
 
 
 class Portfolio extends Component{
@@ -33,6 +34,21 @@ class Portfolio extends Component{
                             <div className="portfolio-item padd-15" data-category="web-design">
                                 <div className="portfolio-item-inner shadow-dark">
                                     <div className="portfolio-img">
+                                        <img src={p5} alt="portfolio-img"/>
+                                    </div>
+                                    <div className="portfolio-info">
+                                        <h4>A Currency Convertor App||Made using ReactJS</h4>
+                                        <p>App fetches the currency exchange rates of 33 countries</p>
+                                        <div className="icon">
+                                        <a href="https://currencyconvertor.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Portfolio Item Starts */}
+                            <div className="portfolio-item padd-15" data-category="web-design">
+                                <div className="portfolio-item-inner shadow-dark">
+                                    <div className="portfolio-img">
                                         <img src={p1} alt="portfolio-img"/>
                                     </div>
                                     <div className="portfolio-info">
@@ -53,7 +69,7 @@ class Portfolio extends Component{
                                     </div>
                                     <div className="portfolio-info">
                                         <h4>Photographer's Portfolio||Made using HTML/CSS</h4>
-                                        <p>Lorem ipsum dolor sit amet.</p>
+                                        <p>It's a fully customised Photographer portfolio</p>
                                         <div className="icon">
                                         <a href="https://chitrahaar.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
                                         </div>
