@@ -2,6 +2,16 @@ import React, {Component} from 'react'
 
 import '../css/about.css'
 
+const workExperience = [
+    {
+        timeline : 'September 2019 - Present',
+        companyName : "Civil Machines technologies Pvt. Ltd.",
+        jobTitle : "Customer Success Intern",
+        respLine1 : "Currently Working as a Customer Success Intern",
+        respLine2 : "Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks"
+    },
+]
+
 class About extends Component{
     render(){    
         return (
@@ -179,16 +189,29 @@ class About extends Component{
                                                     <div className="timeline-item">
                                                             <div className="circle-dot"></div>
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i>September 2019 - Present
+                                                                <i className="fa fa-calendar"></i>
+                                                                {workExperience.map(exp => {
+                                                                    return <>{exp.timeline}</>
+                                                                })}
                                                             </h6>
                                                             <h4 className="timeline-title">
-                                                                Civil Machines Technologies Pvt. Ltd.
+                                                            {workExperience.map(exp => {
+                                                                    return <>{exp.companyName}</>
+                                                                })}
                                                             </h4>
                                                             <p className="timeline-text">
-                                                                <span>Job Title: Customer Success Intern</span><br/>
+                                                            {workExperience.map(exp => {
+                                                                    return <><span>Job Title: {exp.jobTitle}</span><br/></>
+                                                                })}
+                                                                
                                                                 <div className="underline"> Work Responsibility</div><br/>
-                                                                - Currently Working as a Customer Success Intern <br/>
-                                                                - Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks.
+                                                                {workExperience.map(exp => {
+                                                                    return <>- {exp.respLine1}<br/></>
+                                                                })}
+                                                                {workExperience.map(exp => {
+                                                                    return <>- {exp.respLine2}<br/></>
+                                                                })} 
+                                                                
                                                             </p>
                                                     </div>
                                                     {/* Timeline-item end */}
