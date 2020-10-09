@@ -1,0 +1,33 @@
+[
+    {"title":"A Currency Convertor App||Made using ReactJS",
+        "description":"App fetches the currency exchange rates of 33 countries",
+        "link":"https://currencyconvertor.stephinreji.me/",
+        "image":"https://github.com/stephin007/myportfolio/blob/master/src/img/p5.png?raw=true"
+
+    },
+    {"title":"A Weather Application||Made using ReactJS",
+        "description":"It uses an Open Weather API to fetch weather details",
+        "link":"https://weatherman.stephinreji.me/",
+        "image":"https://github.com/stephin007/myportfolio/blob/master/src/img/p1.png?raw=true"
+
+    },
+    {"title":"Photographer's Portfolio||Made using HTML/CSS",
+        "description":"It's a fully customised Photographer portfolio",
+        "link":"https://chitrahaar.stephinreji.me/",
+        "image":"https://github.com/stephin007/myportfolio/blob/master/src/img/p2.png?raw=true"
+
+    },
+    {"title":"PipBoy||Made using Bootstrap",
+        "description":"This is the main screen of a PipBoy from fallout4",
+        "link":"https://pipboy.stephinreji.me/",
+        "image":"https://github.com/stephin007/myportfolio/blob/master/src/img/p3.png?raw=true"
+
+    },
+    {"title":"oming Soon||Made Using HTML/CSS",
+        "description":"This is a coming soon page with an active countdown timer",
+        "link":"https://timer.stephinreji.me/",
+        "image":"https://github.com/stephin007/myportfolio/blob/master/src/img/p4.png?raw=true"
+
+    }
+    
+]
