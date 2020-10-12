@@ -21,6 +21,13 @@ const AboutData = {
     "Jira": 65,
     "Adobe XD/Figma": 60,
   },
-  computerSkillIDs:["Google Sheets/Docs", "Notion", "Jira", "Adobe XD/Figma"]
+  computerSkillIDs:["Google Sheets/Docs", "Notion", "Jira", "Adobe XD/Figma"],
+  "languageSkills": {
+    "Javascript": 40,
+    "React": 50,
+    "HTML/CSS": 80,
+    "GitHub": 70,
+  },
+  languageSkillIDs:["Javascript", "React", "HTML/CSS", "GitHub"],
 }
 export default AboutData

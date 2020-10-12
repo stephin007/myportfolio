@@ -124,34 +124,17 @@ class About extends Component{
                                             <h3 className="pi-title padd-15">
                                                 Languages/Tools/Libraries
                                             </h3>
-                                            <div className="skill-item padd-15">
-                                                <h5>Javascript</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "40%"}}></div>
-                                                    <div className="skill-percent">40%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>React</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "50%"}}></div>
-                                                    <div className="skill-percent">50%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>HTML/CSS</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "80%"}}></div>
-                                                    <div className="skill-percent">80%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>GitHub</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "70%"}}></div>
-                                                    <div className="skill-percent">70%</div>
-                                                </div>
-                                            </div>
+                                            {
+                                                AboutData.languageSkillIDs.map(id => (
+                                                    <div className="skill-item padd-15">
+                                                        <h5>{id}</h5>
+                                                        <div className="progress">
+                                                            <div className="progress-in" style= {{width: `${AboutData.languageSkills[id]}%`}}></div>
+                                                            <div className="skill-percent">{AboutData.languageSkills[id]}%</div>
+                                                        </div>
+                                                    </div>
+                                                ))
+                                            }
                                         </div>   
                                     </div>
                                 </div>
