@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import AboutData from '../data/AboutData'
 
 import '../css/about.css'
 
@@ -27,13 +28,7 @@ class About extends Component{
                                 <div className="row">
                                     <div className="about-text padd-15 ">
                                         <h3>Communication is the <span>key</span></h3>
-                                        <p>Hi, I am Stephin T Reji. I am an aspiring customer success manager with a vision to develop sustainable strategies aimed at solving customer problems with least resources and maximum output.<br/>
-                                        I am currently working as a customer success intern with the responsibility to maintain constant communication with the company's clients to provide high quality support and problem resolution.
-                                        I am also equipped to provide beneficial recommendations and advice to clients.<br/>
-                                        Developing monthly client status reports is another of my expertise in the company. <br/>
-                                        As an employee, I am highly detail-oriented and result-driven. My vision is to improve the quality and efficiency of customer service in the company I work in.
-                                        I have efficient problem solving skills especially in high pressure situations.
-                                        I am a team player with the ability to maintain effective communication between my clients and technology and other buisness lines at the company.</p>
+                                        <p>{AboutData.aboutTxt}</p>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -43,25 +38,25 @@ class About extends Component{
                                         </h3>
                                         <div className="row">
                                             <div className="info-item padd-15">
-                                                <p>Birthday : <span>22 June 1998</span></p>
+                                                <p>Birthday : <span>{AboutData.personalInformation.birthday}</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Age : <span>22</span></p>
+                                                <p>Age : <span>{AboutData.personalInformation.age}</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Email : <span><a href="mailto: mail@stephinreji.me">mail@stephinreji.me</a></span></p>
+                                                <p>Email : <span><a href="mailto: mail@stephinreji.me">{AboutData.email}</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Degree : <span>B.Tech</span></p>
+                                                <p>Degree : <span>{AboutData.personalInformation.degree}</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Phone : <span><a href="tel:+91 8920 788 383">+91 8920 788 383</a></span></p>
+                                                <p>Phone : <span><a href="tel:+91 8920 788 383">{AboutData.personalInformation.phone}</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>City : <span>Delhi</span></p>
+                                                <p>City : <span>{AboutData.personalInformation.city}</span></p>
                                             </div>
                                             <div className="info-item padd-15" id="language">
-                                                <p>Languages Known : <span>English, Hindi, Malayalam</span></p>
+                                                <p>Languages Known : <span>{AboutData.personalInformation.languages.map(language => language + ", ")}</span></p>
                                             </div>
                                         </div>
                                         {/* <div className="row">
