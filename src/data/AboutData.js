@@ -8,6 +8,19 @@ const AboutData = {
     "phone": "+91 8920 788 383",
     "city": "Dehli",
     "languages": ["English", "Hindi", "Malayalam"]
-  }
+  },
+  "interpersonalSkills": {
+    "communication": 95,
+    "customerServiceSkills": 90,
+    "teamWork": 90,
+    "attentionToDetail": 92,
+  },
+  "computerSkills": {
+    "Google Sheets/Docs": 80,
+    "Notion": 75,
+    "Jira": 65,
+    "Adobe XD/Figma": 60,
+  },
+  computerSkillIDs:["Google Sheets/Docs", "Notion", "Jira", "Adobe XD/Figma"]
 }
 export default AboutData

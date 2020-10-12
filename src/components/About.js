@@ -74,29 +74,29 @@ class About extends Component{
                                             <div className="skill-item padd-15">
                                                 <h5>Communication</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "95%"}}></div>
-                                                    <div className="skill-percent">95%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.communication}%`}}></div>
+                                    <div className="skill-percent">{AboutData.interpersonalSkills.communication}%</div>
                                                 </div>
                                             </div>
                                             <div className="skill-item padd-15">
                                                 <h5>Customer Service Skills</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "90%"}}></div>
-                                                    <div className="skill-percent">90%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.customerServiceSkills}%`}}></div>
+                                                    <div className="skill-percent">{AboutData.interpersonalSkills.customerServiceSkills}%</div>
                                                 </div>
                                             </div>
                                             <div className="skill-item padd-15">
                                                 <h5>Team Work</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "90%"}}></div>
-                                                    <div className="skill-percent">90%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.teamWork}%`}}></div>
+                                                    <div className="skill-percent">{AboutData.interpersonalSkills.teamWork}%</div>
                                                 </div>
                                             </div>
                                             <div className="skill-item padd-15">
                                                 <h5>Attention to Detail</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "92%"}}></div>
-                                                    <div className="skill-percent">92%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.attentionToDetail}%`}}></div>
+                                                    <div className="skill-percent">{AboutData.interpersonalSkills.attentionToDetail}%</div>
                                                 </div>
                                             </div>
                                         </div>   
@@ -106,34 +106,17 @@ class About extends Component{
                                             <h3 className="pi-title padd-15">
                                                 Computer Skills
                                             </h3>
-                                            <div className="skill-item padd-15">
-                                                <h5>Google Sheets/Docs</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "80%"}}></div>
-                                                    <div className="skill-percent">80%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>Notion</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "75%"}}></div>
-                                                    <div className="skill-percent">75%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>Jira</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "65%"}}></div>
-                                                    <div className="skill-percent">65%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>Adobe XD/Figma</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "60%"}}></div>
-                                                    <div className="skill-percent">60%</div>
-                                                </div>
-                                            </div>
+                                            {
+                                                AboutData.computerSkillIDs.map(id => (
+                                                    <div className="skill-item padd-15">
+                                                        <h5>{id}</h5>
+                                                        <div className="progress">
+                                                            <div className="progress-in" style= {{width: `${AboutData.computerSkills[id]}%`}}></div>
+                                                            <div className="skill-percent">{AboutData.computerSkills[id]}%</div>
+                                                        </div>
+                                                    </div>
+                                                ))
+                                            }
                                         </div>   
                                     </div>
                                     <div className="skills padd-15" id="tools">
