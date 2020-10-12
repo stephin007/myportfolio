@@ -3,15 +3,6 @@ import AboutData from '../data/AboutData'
 
 import '../css/about.css'
 
-const workExperience = [
-    {
-        timeline : 'September 2019 - Present',
-        companyName : "Civil Machines technologies Pvt. Ltd.",
-        jobTitle : "Customer Success Intern",
-        respLine1 : "Currently Working as a Customer Success Intern",
-        respLine2 : "Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks"
-    },
-]
 
 class About extends Component{
     render(){    
@@ -146,53 +137,27 @@ class About extends Component{
                                         <div className="row">
                                             <div className="timeline-box padd-15">
                                                 <div className="timeline shadow-dark">
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i>
-                                                                {workExperience.map(exp => {
-                                                                    return <>{exp.timeline}</>
-                                                                })}
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                            {workExperience.map(exp => {
-                                                                    return <>{exp.companyName}</>
-                                                                })}
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                            {workExperience.map(exp => {
-                                                                    return <><span>Job Title: {exp.jobTitle}</span><br/></>
-                                                                })}
-                                                                
+                                                    {
+                                                        AboutData.workExperienceIDs.map(id => (
+                                                            <div className="timeline-item">
+                                                                <div className="circle-dot" />
+                                                                <h6 className="timeline-date">
+                                                                    <i className="fa fa-calendar"></i>
+                                                                    {AboutData.workExperience[id].timeline}
+                                                                </h6>   
+                                                                <h4 className="timeline-title">
+                                                                {AboutData.workExperience[id].company}
+                                                                </h4> 
+                                                                <p className="timeline-text">
+                                                                <span>Job Title: {AboutData.workExperience[id].jobTitle}</span>
                                                                 <div className="underline"> Work Responsibility</div><br/>
-                                                                {workExperience.map(exp => {
-                                                                    return <>- {exp.respLine1}<br/></>
-                                                                })}
-                                                                {workExperience.map(exp => {
-                                                                    return <>- {exp.respLine2}<br/></>
-                                                                })} 
-                                                                
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> June 2019 - July 2019
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Bolt : IoT Platform
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                            <span>Job Title: Social Media Marketing Intern</span><br/>
-                                                            <div className="underline"> Work Responsibility</div><br/>
-                                                                - Worked as a Social Media Marketing Intern.<br/>
-                                                                - My main work was to make posters and strategise how to increase the reach of the product to a broader public socially.
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
+                                                                    {AboutData.workExperience[id].responsibilities.map(responsibility => (
+                                                                        <>- {responsibility}<br/></>
+                                                                    ))}
+                                                                </p>
+                                                            </div>    
+                                                        ))
+                                                    }
                                                 </div>
                                             </div>
                                     </div>
@@ -205,51 +170,23 @@ class About extends Component{
                                             <div className="timeline-box padd-15">
                                                 <div className="timeline shadow-dark">
                                                     {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
+                                                    {AboutData.educationIDs.map(id => (
+                                                        <div className="timeline-item">
+                                                            <div className="circle-dot" />
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2016 - 2020
+                                                                <i className="fa fa-calendar"></i> {AboutData.education[id].timeline}
                                                             </h6>
                                                             <h4 className="timeline-title">
-                                                                Bachelors in Electronics and Communication
+                                                                {AboutData.education[id].title}
                                                             </h4>
                                                             <p className="timeline-text">
-                                                                Noida Institue of Engineering and Technology, Greater Noida, Uttar Pradesh
+                                                            {AboutData.education[id].institute}
                                                             </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2014 - 2016
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Senior Secondary Education(XI-XII)
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                                Assisi Convent Senior Secondary School, Noida, Uttar Pradesh
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2013 - 2014
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Secondary Education(X)
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                                Assisi Convent Senior Secondary School, Noida, Uttar Pradesh
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
+                                                        </div>
+                                                    ))}
                                                 </div>
                                             </div>
-                                    </div>
-
+                                        </div>
                                     </div>
                                 </div>
                             </div>

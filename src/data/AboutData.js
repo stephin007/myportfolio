@@ -29,5 +29,38 @@ const AboutData = {
     "GitHub": 70,
   },
   languageSkillIDs:["Javascript", "React", "HTML/CSS", "GitHub"],
+  workExperience: {
+    1:{
+      company: "Civil Machines technologies Pvt. Ltd.",
+      timeline : 'September 2019 - Present',
+      jobTitle : "Customer Success Intern",
+      responsibilities : ["Currently Working as a Customer Success Intern", "Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks"]
+    },
+    2:{
+      company: "Bolt : IoT Platform",
+      timeline : 'June 2019 - July 2019',
+      jobTitle : "Social Media Marketing Intern",
+      responsibilities : ["Worked as a Social Media Marketing Intern.", "My main work was to make posters and strategise how to increase the reach of the product to a broader public socially."]
+    },
+  },
+  workExperienceIDs: [1,2],
+  education: {
+    1:{
+      timeline : "2016 - 2020",
+      title : "Bachelors in Electronics and Communication",
+      institute : "Noida Institue of Engineering and Technology, Greater Noida, Uttar Pradesh"
+    },
+    2:{
+      timeline : "2014 - 2016",
+      title : "Senior Secondary Education(XI-XII)",
+      institute : "Assisi Convent Senior Secondary School, Noida, Uttar Pradesh"
+    },
+    3:{
+      timeline : "2013 - 2014",
+      title : "Secondary Education(X)",
+      institute : "Assisi Convent Senior Secondary School, Noida, Uttar Pradesh"
+    },
+  },
+  educationIDs: [1,2,3],
 }
 export default AboutData
