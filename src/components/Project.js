@@ -1,16 +1,13 @@
 import React, {Component, Fragment} from 'react'
+import ProjectData from '../data/ProjectData'
 
 import '../css/project.css'
 
 // Portfolio Images
-import p1 from '../img/p1.png'
-import p2 from '../img/p2.png'
-import p3 from '../img/p3.png'
-import p4 from '../img/p4.png'
-import p5 from '../img/p5.png'
 
 
 class Portfolio extends Component{
+    
     render(){    
         return (
             <Fragment>
@@ -30,115 +27,24 @@ class Portfolio extends Component{
                             </div>
                         </div> */}
                         <div className="row">
-                            {/* Portfolio Item Starts */}
-                            <div className="portfolio-item padd-15" data-category="web-design">
-                                <div className="portfolio-item-inner shadow-dark">
-                                    <div className="portfolio-img">
-                                        <img src={p5} alt="portfolio-img"/>
-                                    </div>
-                                    <div className="portfolio-info">
-                                        <h4>A Currency Convertor App||Made using ReactJS</h4>
-                                        <p>App fetches the currency exchange rates of 33 countries</p>
-                                        <div className="icon">
-                                        <a href="https://currencyconvertor.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                            {
+                                ProjectData.allIDs.map((id, index) => (
+                                    <div className="portfolio-item padd-15" key={index} data-category="web-design">
+                                        <div className="portfolio-item-inner shadow-dark">
+                                            <div className="portfolio-img">
+                                                <img src={require(`../img/p${id}.png`)} alt="portfolio-img"/>
+                                            </div>
+                                            <div className="portfolio-info">
+                                                <h4>{ProjectData.byID[id].title}</h4>
+                                                <p>{ProjectData.byID[id].description}</p>
+                                                <div className="icon">
+                                                <a href="https://currencyconvertor.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            {/* Portfolio Item Starts */}
-                            <div className="portfolio-item padd-15" data-category="web-design">
-                                <div className="portfolio-item-inner shadow-dark">
-                                    <div className="portfolio-img">
-                                        <img src={p1} alt="portfolio-img"/>
-                                    </div>
-                                    <div className="portfolio-info">
-                                        <h4>A Weather Application||Made using ReactJS</h4>
-                                        <p>It uses an Open Weather API to fetch weather details</p>
-                                        <div className="icon">
-                                        <a href="https://weatherman.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Portfolio Item Ends */}
-                            {/* Portfolio Item Starts */}
-                            <div className="portfolio-item padd-15" data-category="wordpress">
-                                <div className="portfolio-item-inner shadow-dark">
-                                    <div className="portfolio-img">
-                                        <img src={p2} alt="portfolio-img"/>
-                                    </div>
-                                    <div className="portfolio-info">
-                                        <h4>Photographer's Portfolio||Made using HTML/CSS</h4>
-                                        <p>It's a fully customised Photographer portfolio</p>
-                                        <div className="icon">
-                                        <a href="https://chitrahaar.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Portfolio Item Ends */}
-                            {/* Portfolio Item Starts */}
-                            <div className="portfolio-item padd-15" data-category="web-design">
-                                <div className="portfolio-item-inner shadow-dark">
-                                    <div className="portfolio-img">
-                                        <img src={p3} alt="portfolio-img"/>
-                                    </div>
-                                    <div className="portfolio-info">
-                                        <h4>PipBoy||Made using Bootstrap</h4>
-                                        <p>This is the main screen of a PipBoy from fallout4</p>
-                                        <div className="icon">
-                                        <a href="https://pipboy.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Portfolio Item Ends */}
-                            {/* Portfolio Item Starts */}
-                            <div className="portfolio-item padd-15" data-category="photography">
-                                <div className="portfolio-item-inner shadow-dark">
-                                    <div className="portfolio-img">
-                                        <img src={p4} alt="portfolio-img"/>
-                                    </div>
-                                    <div className="portfolio-info">
-                                        <h4>Coming Soon||Made Using HTML/CSS</h4>
-                                        <p>This is a coming soon page with an active countdown timer</p>
-                                        <div className="icon">
-                                        <a href="https://timer.stephinreji.me/" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Portfolio Item Ends */}
-                            {/* Portfolio Item Starts */}
-                            {/* <div className="portfolio-item padd-15" data-category="wordpress">
-                                <div className="portfolio-item-inner shadow-dark">
-                                    <div className="portfolio-img">
-                                        <img src={p5} alt="portfolio-img"/>
-                                    </div>
-                                    <div className="portfolio-info">
-                                        <h4>Wordpress</h4>
-                                        <div className="icon">
-                                        <a href="https://www.google.com" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
-                            {/* Portfolio Item Ends */}
-                            {/* Portfolio Item Starts */}
-                            {/* <div className="portfolio-item padd-15" data-category="web-design">
-                                <div className="portfolio-item-inner shadow-dark">
-                                    <div className="portfolio-img">
-                                        <img src={p6} alt="portfolio-img"/>
-                                    </div>
-                                    <div className="portfolio-info">
-                                        <h4>Web Design</h4>
-                                        <div className="icon">
-                                            <a href="https://www.google.com" target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
-                            {/* Portfolio Item Ends */}
+                                ))
+                            }
                         </div>
                     </div>
                 </section>

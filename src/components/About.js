@@ -1,16 +1,8 @@
 import React, {Component} from 'react'
+import AboutData from '../data/AboutData'
 
 import '../css/about.css'
 
-const workExperience = [
-    {
-        timeline : 'September 2019 - Present',
-        companyName : "Civil Machines technologies Pvt. Ltd.",
-        jobTitle : "Customer Success Intern",
-        respLine1 : "Currently Working as a Customer Success Intern",
-        respLine2 : "Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks"
-    },
-]
 
 class About extends Component{
     render(){    
@@ -27,13 +19,7 @@ class About extends Component{
                                 <div className="row">
                                     <div className="about-text padd-15 ">
                                         <h3>Communication is the <span>key</span></h3>
-                                        <p>Hi, I am Stephin T Reji. I am an aspiring customer success manager with a vision to develop sustainable strategies aimed at solving customer problems with least resources and maximum output.<br/>
-                                        I am currently working as a customer success intern with the responsibility to maintain constant communication with the company's clients to provide high quality support and problem resolution.
-                                        I am also equipped to provide beneficial recommendations and advice to clients.<br/>
-                                        Developing monthly client status reports is another of my expertise in the company. <br/>
-                                        As an employee, I am highly detail-oriented and result-driven. My vision is to improve the quality and efficiency of customer service in the company I work in.
-                                        I have efficient problem solving skills especially in high pressure situations.
-                                        I am a team player with the ability to maintain effective communication between my clients and technology and other buisness lines at the company.</p>
+                                        <p>{AboutData.aboutTxt}</p>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -43,25 +29,25 @@ class About extends Component{
                                         </h3>
                                         <div className="row">
                                             <div className="info-item padd-15">
-                                                <p>Birthday : <span>22 June 1998</span></p>
+                                                <p>Birthday : <span>{AboutData.personalInformation.birthday}</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Age : <span>22</span></p>
+                                                <p>Age : <span>{AboutData.personalInformation.age}</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Email : <span><a href="mailto: mail@stephinreji.me">mail@stephinreji.me</a></span></p>
+                                                <p>Email : <span><a href="mailto: mail@stephinreji.me">{AboutData.email}</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Degree : <span>B.Tech</span></p>
+                                                <p>Degree : <span>{AboutData.personalInformation.degree}</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Phone : <span><a href="tel:+91 8920 788 383">+91 8920 788 383</a></span></p>
+                                                <p>Phone : <span><a href="tel:+91 8920 788 383">{AboutData.personalInformation.phone}</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>City : <span>Delhi</span></p>
+                                                <p>City : <span>{AboutData.personalInformation.city}</span></p>
                                             </div>
                                             <div className="info-item padd-15" id="language">
-                                                <p>Languages Known : <span>English, Hindi, Malayalam</span></p>
+                                                <p>Languages Known : <span>{AboutData.personalInformation.languages.map(language => language + ", ")}</span></p>
                                             </div>
                                         </div>
                                         {/* <div className="row">
@@ -79,29 +65,29 @@ class About extends Component{
                                             <div className="skill-item padd-15">
                                                 <h5>Communication</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "95%"}}></div>
-                                                    <div className="skill-percent">95%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.communication}%`}}></div>
+                                    <div className="skill-percent">{AboutData.interpersonalSkills.communication}%</div>
                                                 </div>
                                             </div>
                                             <div className="skill-item padd-15">
                                                 <h5>Customer Service Skills</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "90%"}}></div>
-                                                    <div className="skill-percent">90%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.customerServiceSkills}%`}}></div>
+                                                    <div className="skill-percent">{AboutData.interpersonalSkills.customerServiceSkills}%</div>
                                                 </div>
                                             </div>
                                             <div className="skill-item padd-15">
                                                 <h5>Team Work</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "90%"}}></div>
-                                                    <div className="skill-percent">90%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.teamWork}%`}}></div>
+                                                    <div className="skill-percent">{AboutData.interpersonalSkills.teamWork}%</div>
                                                 </div>
                                             </div>
                                             <div className="skill-item padd-15">
                                                 <h5>Attention to Detail</h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style= {{width: "92%"}}></div>
-                                                    <div className="skill-percent">92%</div>
+                                                    <div className="progress-in" style= {{width: `${AboutData.interpersonalSkills.attentionToDetail}%`}}></div>
+                                                    <div className="skill-percent">{AboutData.interpersonalSkills.attentionToDetail}%</div>
                                                 </div>
                                             </div>
                                         </div>   
@@ -111,34 +97,17 @@ class About extends Component{
                                             <h3 className="pi-title padd-15">
                                                 Computer Skills
                                             </h3>
-                                            <div className="skill-item padd-15">
-                                                <h5>Google Sheets/Docs</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "80%"}}></div>
-                                                    <div className="skill-percent">80%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>Notion</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "75%"}}></div>
-                                                    <div className="skill-percent">75%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>Jira</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "65%"}}></div>
-                                                    <div className="skill-percent">65%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>Adobe XD/Figma</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "60%"}}></div>
-                                                    <div className="skill-percent">60%</div>
-                                                </div>
-                                            </div>
+                                            {
+                                                AboutData.computerSkillIDs.map(id => (
+                                                    <div className="skill-item padd-15">
+                                                        <h5>{id}</h5>
+                                                        <div className="progress">
+                                                            <div className="progress-in" style= {{width: `${AboutData.computerSkills[id]}%`}}></div>
+                                                            <div className="skill-percent">{AboutData.computerSkills[id]}%</div>
+                                                        </div>
+                                                    </div>
+                                                ))
+                                            }
                                         </div>   
                                     </div>
                                     <div className="skills padd-15" id="tools">
@@ -146,34 +115,17 @@ class About extends Component{
                                             <h3 className="pi-title padd-15">
                                                 Languages/Tools/Libraries
                                             </h3>
-                                            <div className="skill-item padd-15">
-                                                <h5>Javascript</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "40%"}}></div>
-                                                    <div className="skill-percent">40%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>React</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "50%"}}></div>
-                                                    <div className="skill-percent">50%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>HTML/CSS</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "80%"}}></div>
-                                                    <div className="skill-percent">80%</div>
-                                                </div>
-                                            </div>
-                                            <div className="skill-item padd-15">
-                                                <h5>GitHub</h5>
-                                                <div className="progress">
-                                                    <div className="progress-in" style= {{width: "70%"}}></div>
-                                                    <div className="skill-percent">70%</div>
-                                                </div>
-                                            </div>
+                                            {
+                                                AboutData.languageSkillIDs.map(id => (
+                                                    <div className="skill-item padd-15">
+                                                        <h5>{id}</h5>
+                                                        <div className="progress">
+                                                            <div className="progress-in" style= {{width: `${AboutData.languageSkills[id]}%`}}></div>
+                                                            <div className="skill-percent">{AboutData.languageSkills[id]}%</div>
+                                                        </div>
+                                                    </div>
+                                                ))
+                                            }
                                         </div>   
                                     </div>
                                 </div>
@@ -185,53 +137,27 @@ class About extends Component{
                                         <div className="row">
                                             <div className="timeline-box padd-15">
                                                 <div className="timeline shadow-dark">
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i>
-                                                                {workExperience.map(exp => {
-                                                                    return <>{exp.timeline}</>
-                                                                })}
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                            {workExperience.map(exp => {
-                                                                    return <>{exp.companyName}</>
-                                                                })}
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                            {workExperience.map(exp => {
-                                                                    return <><span>Job Title: {exp.jobTitle}</span><br/></>
-                                                                })}
-                                                                
+                                                    {
+                                                        AboutData.workExperienceIDs.map(id => (
+                                                            <div className="timeline-item">
+                                                                <div className="circle-dot" />
+                                                                <h6 className="timeline-date">
+                                                                    <i className="fa fa-calendar"></i>
+                                                                    {AboutData.workExperience[id].timeline}
+                                                                </h6>   
+                                                                <h4 className="timeline-title">
+                                                                {AboutData.workExperience[id].company}
+                                                                </h4> 
+                                                                <p className="timeline-text">
+                                                                <span>Job Title: {AboutData.workExperience[id].jobTitle}</span>
                                                                 <div className="underline"> Work Responsibility</div><br/>
-                                                                {workExperience.map(exp => {
-                                                                    return <>- {exp.respLine1}<br/></>
-                                                                })}
-                                                                {workExperience.map(exp => {
-                                                                    return <>- {exp.respLine2}<br/></>
-                                                                })} 
-                                                                
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> June 2019 - July 2019
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Bolt : IoT Platform
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                            <span>Job Title: Social Media Marketing Intern</span><br/>
-                                                            <div className="underline"> Work Responsibility</div><br/>
-                                                                - Worked as a Social Media Marketing Intern.<br/>
-                                                                - My main work was to make posters and strategise how to increase the reach of the product to a broader public socially.
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
+                                                                    {AboutData.workExperience[id].responsibilities.map(responsibility => (
+                                                                        <>- {responsibility}<br/></>
+                                                                    ))}
+                                                                </p>
+                                                            </div>    
+                                                        ))
+                                                    }
                                                 </div>
                                             </div>
                                     </div>
@@ -244,51 +170,23 @@ class About extends Component{
                                             <div className="timeline-box padd-15">
                                                 <div className="timeline shadow-dark">
                                                     {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
+                                                    {AboutData.educationIDs.map(id => (
+                                                        <div className="timeline-item">
+                                                            <div className="circle-dot" />
                                                             <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2016 - 2020
+                                                                <i className="fa fa-calendar"></i> {AboutData.education[id].timeline}
                                                             </h6>
                                                             <h4 className="timeline-title">
-                                                                Bachelors in Electronics and Communication
+                                                                {AboutData.education[id].title}
                                                             </h4>
                                                             <p className="timeline-text">
-                                                                Noida Institue of Engineering and Technology, Greater Noida, Uttar Pradesh
+                                                            {AboutData.education[id].institute}
                                                             </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2014 - 2016
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Senior Secondary Education(XI-XII)
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                                Assisi Convent Senior Secondary School, Noida, Uttar Pradesh
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
-                                                    {/* Timeline-item start */}
-                                                    <div className="timeline-item">
-                                                            <div className="circle-dot"></div>
-                                                            <h6 className="timeline-date">
-                                                                <i className="fa fa-calendar"></i> 2013 - 2014
-                                                            </h6>
-                                                            <h4 className="timeline-title">
-                                                                Secondary Education(X)
-                                                            </h4>
-                                                            <p className="timeline-text">
-                                                                Assisi Convent Senior Secondary School, Noida, Uttar Pradesh
-                                                            </p>
-                                                    </div>
-                                                    {/* Timeline-item end */}
+                                                        </div>
+                                                    ))}
                                                 </div>
                                             </div>
-                                    </div>
-
+                                        </div>
                                     </div>
                                 </div>
                             </div>
