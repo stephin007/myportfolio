@@ -3,9 +3,6 @@ import ProjectData from '../data/ProjectData'
 
 import '../css/project.css'
 
-// Portfolio Images
-
-
 class Portfolio extends Component{
     
     render(){    
@@ -18,14 +15,6 @@ class Portfolio extends Component{
                                 <h2>Projects</h2>
                             </div>
                         </div>
-                        {/* <div className="row">
-                            <div className="portfolio-filter padd-15">
-                                <button type="button" className="active" data-filter="all">All</button>
-                                <button type="button" data-filter="web-design">Web Design</button>
-                                <button type="button" data-filter="photography">Photography</button>
-                                <button type="button" data-filter="wordpress">Wordpress</button>
-                            </div>
-                        </div> */}
                         <div className="row">
                             {
                                 ProjectData.allIDs.map((id, index) => (
@@ -48,30 +37,6 @@ class Portfolio extends Component{
                         </div>
                     </div>
                 </section>
-
-                {/* <div className="lightbox">
-                    <div className="lightbox-content">
-                        <div className="lightbox-close">&times;</div>
-                        <img src={p2} alt="" className="lightbox-img"/>
-                        <div className="lightbox-caption">
-                            <div className="caption-text">
-                                Web Design
-                            </div>
-                            <div className="caption counter">
-                                1 of 6
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lightbox-controls">
-                        <div className="prev-item">
-                            <i className="fa fa-angle-left"></i>
-                        </div>
-                        <div className="next-item">
-                        <i className="fa fa-angle-right"></i>
-                        </div>
-                    </div>
-                </div> */}
-
             </Fragment>    
             )
         }    

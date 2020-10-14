@@ -48,7 +48,6 @@ class Navbar extends Component {
                         <li><Link to='/' onClick={this.closeNav}>HOME</Link></li>
                         <li><Link to='/about' onClick={this.closeNav}>ABOUT</Link></li>
                         <li><Link to='/projects' onClick={this.closeNav}>PROJECTS</Link></li>
-                        {/* <li><Link to='/contact' onClick={this.closeNav}>CONTACT</Link></li> */}
                     </ul>
                 </nav>    
             </Fragment>

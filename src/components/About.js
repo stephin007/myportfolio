@@ -35,7 +35,7 @@ class About extends Component{
                                                 <p>Age : <span>{AboutData.personalInformation.age}</span></p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p>Email : <span><a href="mailto: mail@stephinreji.me">{AboutData.email}</a></span></p>
+                                                <p>Email : <span><a href="mailto:{AboutData.personalInformation.email}">{AboutData.personalInformation.email}</a></span></p>
                                             </div>
                                             <div className="info-item padd-15">
                                                 <p>Degree : <span>{AboutData.personalInformation.degree}</span></p>
@@ -50,12 +50,6 @@ class About extends Component{
                                                 <p>Languages Known : <span>{AboutData.personalInformation.languages.map(language => language + ", ")}</span></p>
                                             </div>
                                         </div>
-                                        {/* <div className="row">
-                                            <div className="buttons padd-15">
-                                                <a href="https://www.google.com" className="bn">Download Resume</a>
-                                                <a href="https://www.google.com" className="bn bn-space">Hire Me</a>
-                                            </div>
-                                        </div> */}
                                     </div>
                                     <div className="skills padd-15">
                                         <div className="row">
@@ -149,7 +143,7 @@ class About extends Component{
                                                                 {AboutData.workExperience[id].company}
                                                                 </h4> 
                                                                 <p className="timeline-text">
-                                                                <span>Job Title: {AboutData.workExperience[id].jobTitle}</span>
+                                                                <span>Job Title: {AboutData.workExperience[id].jobTitle}</span> <br/>
                                                                 <div className="underline"> Work Responsibility</div><br/>
                                                                     {AboutData.workExperience[id].responsibilities.map(responsibility => (
                                                                         <>- {responsibility}<br/></>
