@@ -1,3 +1,5 @@
+![Build and Deploy](https://github.com/stephin007/myportfolio/workflows/Build%20and%20Deploy/badge.svg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
