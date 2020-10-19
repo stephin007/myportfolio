@@ -19,14 +19,6 @@ Home
 
 ![Screenshot Home](https://github.com/stephin007/myportfolio/raw/master/public/home.png)
 
-About
-
-![Screenshot About](https://github.com/stephin007/myportfolio/raw/master/public/about.png)
-
-Projects
-
-![Screenshot Projects](https://github.com/stephin007/myportfolio/raw/master/public/projects.png)
-
 ## Installation
 You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine (but it’s not required on the server). You can use nvm (macOS/Linux) or nvm-windows to switch Node versions between different projects.
 
