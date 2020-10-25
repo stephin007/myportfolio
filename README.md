@@ -2,6 +2,10 @@
 
 ![license](https://img.shields.io/github/license/stephin007/myportfolio) 
 ![Version](https://img.shields.io/github/commit-activity/y/stephin007/myportfolio)
+[![GitHub issues](https://img.shields.io/github/issues/stephin007/myportfolio)](https://github.com/stephin007/myportfolio/issues)
+[![GitHub forks](https://img.shields.io/github/forks/stephin007/myportfolio)](https://github.com/stephin007/myportfolio/network)
+[![GitHub stars](https://img.shields.io/github/stars/stephin007/myportfolio)](https://github.com/stephin007/myportfolio/stargazers)
+
 
 ![Version](https://img.shields.io/github/contributors/stephin007/myportfolio) 
 ![Version](https://img.shields.io/github/last-commit/stephin007/myportfolio) 
