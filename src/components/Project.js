@@ -4,8 +4,8 @@ import ProjectData from '../data/ProjectData'
 import '../css/project.css'
 
 class Portfolio extends Component{
-    
-    render(){    
+
+    render(){
         return (
             <Fragment>
                 <section className="portfolio section">
@@ -21,7 +21,7 @@ class Portfolio extends Component{
                                     <div className="portfolio-item padd-15" key={index} data-category="web-design">
                                         <div className="portfolio-item-inner shadow-dark">
                                             <div className="portfolio-img">
-                                                <img src={require(`../img/p${id}.png`)} alt="portfolio-img"/>
+                                                <img src={ProjectData.byID[id].imgLink} alt="portfolio-img"/>
                                             </div>
                                             <div className="portfolio-info">
                                                 <h4>{ProjectData.byID[id].title}</h4>
@@ -37,9 +37,9 @@ class Portfolio extends Component{
                         </div>
                     </div>
                 </section>
-            </Fragment>    
+            </Fragment>
             )
-        }    
+        }
 }
 
 export default Portfolio
