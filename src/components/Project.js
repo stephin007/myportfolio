@@ -18,7 +18,7 @@ class Portfolio extends Component{
                         <div className="row">
                             {
                                 ProjectData.allIDs.map((id, index) => (
-                                    <div className="portfolio-item padd-15" key={index} data-category="web-design">
+                                    <div className="portfolio-item padd-15" key={index} data-category="web-design" data-testid="portfolio-item">
                                         <div className="portfolio-item-inner shadow-dark">
                                             <div className="portfolio-img">
                                                 <img src={ProjectData.byID[id].imgLink} alt="portfolio-img"/>

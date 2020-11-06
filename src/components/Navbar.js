@@ -27,21 +27,21 @@ class Navbar extends Component {
                 <nav>
                     <div className="logobtn">
                         <div className="logo">
-                        <Link to="/" onClick={this.closeNav}>
-                            <img src="https://res.cloudinary.com/stephin/image/upload/v1604631468/portfolio/download_cvd0q0.png" alt=""/>
-                        </Link>
+                            <Link to="/" onClick={this.closeNav} aria-label="Homepage" alt="Homepage">
+                                <img src="https://res.cloudinary.com/stephin/image/upload/v1604631468/portfolio/download_cvd0q0.png" alt="logo"/>
+                            </Link>
                         </div>
-                        <div className="btn" onClick={this.handleClick}>
+                        <button aria-label="Main menu" className="btn" onClick={this.handleClick}>
                             <div className="bar"></div>
                             <div className="bar"></div>
                             <div className="bar"></div>
-                        </div>
+                        </button>
                     </div>
 
-                    <ul className={this.state.isOpen ? 'showNav':'undefined'}>
-                        <li><Link to='/' onClick={this.closeNav}>HOME</Link></li>
-                        <li><Link to='/about' onClick={this.closeNav}>ABOUT</Link></li>
-                        <li><Link to='/projects' onClick={this.closeNav}>PROJECTS</Link></li>
+                    <ul className={this.state.isOpen ? 'showNav':'undefined'} data-testid="navbar">
+                        <li><Link to='/' onClick={this.closeNav} alt="home">HOME</Link></li>
+                        <li><Link to='/about' onClick={this.closeNav} alt="about">ABOUT</Link></li>
+                        <li><Link to='/projects' onClick={this.closeNav} alt="project">PROJECTS</Link></li>
                     </ul>
                 </nav>
             </Fragment>
