@@ -157,8 +157,8 @@ class About extends Component{
                                     </div>
                                     </div>
                                     <div className="education padd-15">
-                                        <h3 className="title">
-                                        Education
+                                        <h3 className="title" data-testid="section--eductaion">
+                                            Education
                                         </h3>
                                         <div className="row">
                                             <div className="timeline-box padd-15">
