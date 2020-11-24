@@ -27,7 +27,7 @@ class Portfolio extends Component{
                                                 <h4>{ProjectData.byID[id].title}</h4>
                                                 <p>{ProjectData.byID[id].description}</p>
                                                 <div className="icon">
-                                                <a href={ProjectData.byID[id].link} target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
+                                                <a href={ProjectData.byID[id].projLink} target="_blank" rel = "noopener noreferrer"><i className="fa fa-search"></i></a>
                                                 </div>
                                             </div>
                                         </div>
