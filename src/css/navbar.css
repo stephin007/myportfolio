@@ -74,6 +74,7 @@ ul li a:hover{
         align-items: center;
         padding: 0 20px;
     }
+    
 
     .btn{
         display: none;
@@ -103,4 +104,34 @@ ul li a:hover{
         color: #ca8f20;
         padding-left: -10px;
     }
+    .sun-moon-1{
+       display: none;
+    }
+    .sun-moon-2{
+        height:55px;
+        width:60px;
+        padding:15px;
+    }
 }
+@media screen and (max-width:639px)
+{
+    .btn {
+        border: 1px solid rgb(156, 156, 156);
+        background-color: transparent;
+        display: inline-block;
+        border-radius: 3px;
+        cursor: pointer;
+        margin: 15px 0px;
+    }
+    .mob{
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+    }
+    .sun-moon-1{
+        height:65px;
+        width:60px;
+        padding:15px;
+    }
+}
+
