@@ -50,6 +50,11 @@ class About extends Component{
                                                 <p>Languages Known : <span>{AboutData.personalInformation.languages.map(language => language + ", ")}</span></p>
                                             </div>
                                         </div>
+                                        <div className="row">
+                                            <div className="buttons padd-15">
+                                                <a href={require("../assets/resume.pdf")} download="Stephin's Resume" className="bn">Download Resume</a>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div className="skills padd-15">
                                         <div className="row">
