@@ -9,14 +9,13 @@
 }
 
 .container{
-    
     width: 100%;
     margin: auto;
 }
 
 .shadow-img{
-    -webkit-box-shadow: 0 0 40px rgba(48,46,77,0.15);
-    box-shadow: 0 0 40px rgba(48,46,77,0.15);
+    -webkit-box-shadow: 0 0 40px rgba(48,46,77,0.6);
+    box-shadow: 0 0 40px rgba(48,46,77,0.6);
 }
 
 .home{
@@ -32,6 +31,7 @@
 .home .intro img{
     height: 300px;
     width: 300px;
+    object-fit: cover;
     border-radius: 100%;
     display: inline-block;
 }
@@ -84,4 +84,11 @@
     .main-content{
         padding-left: 0;
     }
+    .home .intro img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: inline-block;
+}
 }
