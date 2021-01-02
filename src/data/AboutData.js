@@ -33,12 +33,17 @@ const AboutData = {
     languageSkillIDs: ["Javascript", "React", "HTML/CSS", "GitHub"],
     workExperience: {
         1: {
+            company: "Certa",
+            timeline: 'January 2021 - Present',
+            jobTitle: "Customer Success Analyst",
+            responsibilities: ""
+        },2: {
             company: "Civil Machines technologies Pvt. Ltd.",
-            timeline: 'September 2019 - Present',
+            timeline: 'September 2019 - December 2020',
             jobTitle: "Customer Success Intern",
-            responsibilities: ["Currently Working as a Customer Success Intern", "Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks"]
+            responsibilities: ["Worked as a Customer Success Intern", "Communication with customers via phone or email and to provide high-quality support and resolution to their issues is one of my daily tasks"]
         },
-        2: {
+        3: {
             company: "Bolt : IoT Platform",
             timeline: 'June 2019 - July 2019',
             jobTitle: "Social Media Marketing Intern",
@@ -46,7 +51,7 @@ const AboutData = {
             " strategize how to increase the reach of the product to a broader public socially."]
         },
     },
-    workExperienceIDs: [1, 2],
+    workExperienceIDs: [1, 2, 3],
     education: {
         1: {
             timeline: "2016 - 2020",

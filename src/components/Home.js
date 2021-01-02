@@ -17,7 +17,7 @@ class Home extends Component{
                     />
                     <h1>Stephin T Reji</h1>
                     <p>
-                      I am a technically savvy customer success intern who is
+                      I am a technically savvy Customer Success Analyst who is
                       constantly striving for change and betterment
                     </p>
                     <div className="social-links">
