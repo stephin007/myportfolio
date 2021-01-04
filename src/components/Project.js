@@ -33,7 +33,15 @@ class Portfolio extends Component {
                       <h4>{ProjectData.byID[id].title}</h4>
                       <p>{ProjectData.byID[id].description}</p>
 
-                      <div className="icon-github">
+                      <div
+                        className="icon-github"
+                        style={{
+                          display:
+                            ProjectData.byID[id].projLink !== ""
+                              ? "block"
+                              : "none",
+                        }}
+                      >
                         <a
                           href={ProjectData.byID[id].gitLink}
                           target="_blank"

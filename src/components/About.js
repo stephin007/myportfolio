@@ -86,8 +86,18 @@ class About extends Component {
                         href={require("../assets/resume.pdf")}
                         download="Stephin's Resume"
                         className="bn"
+                        target="_blank"
+                        rel="noopener noreferrer" 
                       >
                         Download Resume
+                      </a>
+                      <a
+                        href={require("../assets/resume.pdf")}
+                        className="bn"
+                        target="_blank"
+                        rel="noopener noreferrer" 
+                      >
+                        View Resume
                       </a>
                     </div>
                   </div>
@@ -213,7 +223,10 @@ class About extends Component {
                             </h6>
                             <h4 className="timeline-title">
                               {AboutData.workExperience[id].company}
-                              <a href={AboutData.workExperience[id].website} className="company-website">
+                              <a
+                                href={AboutData.workExperience[id].website}
+                                className="company-website"
+                              >
                                 <i class="fab fa-chrome"></i>
                               </a>
                             </h4>

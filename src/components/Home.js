@@ -11,7 +11,7 @@ class Home extends Component{
                 <div className="container">
                   <div className="intro">
                     <img
-                      src="https://res.cloudinary.com/stephin/image/upload/v1609566049/portfolio/DSC_0196_ugzivl.jpg"
+                      src="https://res.cloudinary.com/stephin/image/upload/v1609764633/portfolio/WhatsApp_Image_2021-01-04_at_18.19.09_gxp5cg.jpg"
                       alt="Profile Img"
                       className="shadow-img"
                     />
