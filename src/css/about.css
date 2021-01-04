@@ -332,11 +332,21 @@
 
 .about .about-content .timeline .timeline-title{
     font-weight: 700;
+    display: flex;
     font-size: 18px;
     margin-bottom: 15px;
     text-transform: capitalize;
     /* color: black; */
 }
+
+.about .about-content .timeline .timeline-title .company-website {
+    font-size: 17px;
+    color: black;
+    margin-left: auto;
+    text-decoration: underline;
+}
+
+
 .about .about-content .timeline .timeline-text{
     font-size: 16px;
     line-height: 25px;

@@ -213,6 +213,9 @@ class About extends Component {
                             </h6>
                             <h4 className="timeline-title">
                               {AboutData.workExperience[id].company}
+                              <a href={AboutData.workExperience[id].website} className="company-website">
+                                <i class="fab fa-chrome"></i>
+                              </a>
                             </h4>
                             <p className="timeline-text">
                               <span>
