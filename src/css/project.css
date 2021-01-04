@@ -110,7 +110,7 @@
     transform: translateX(0px);
 }
 
-.portfolio .portfolio-item .portfolio-info .icon{
+.portfolio .portfolio-item .portfolio-info .icon-search{
     height: 40px;
     width: 40px;
     background-color: white;
@@ -126,13 +126,41 @@
     transform: translateX(20px);
 }
 
-.portfolio .portfolio-item-inner:hover .portfolio-info .icon{
+.portfolio .portfolio-item .portfolio-info .icon-github{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.portfolio .portfolio-item-inner:hover .portfolio-info .icon-search{
     opacity: 1;
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
 }
 
-.portfolio .portfolio-item .portfolio-info .icon .fa{
+.portfolio .portfolio-item-inner:hover .portfolio-info .icon-github{
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(-50px);
+}
+
+.portfolio .portfolio-item .portfolio-info .icon-search .fa{
+    line-height: 40px;
+    color: goldenrod;
+
+}
+
+.portfolio .portfolio-item .portfolio-info .icon-github .fab{
     line-height: 40px;
     color: goldenrod;
 
