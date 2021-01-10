@@ -23,7 +23,7 @@ const ProjectData = {
       projLink: "https://criclive.stephinreji.me/",
       imgLink:
         "https://res.cloudinary.com/stephin/image/upload/v1606246612/portfolio/criclive.stephinreji.me__custom-laptop_dpriez.png",
-      gitLink: "",
+      gitLink: "https://github.com/stephin007/CricLive",
     },
     4: {
       title: "The Git Searcher||Made using ReactJS",
@@ -31,7 +31,7 @@ const ProjectData = {
       projLink: "https://gitsearcher.stephinreji.me/",
       imgLink:
         "https://res.cloudinary.com/stephin/image/upload/v1604627671/portfolio/gitsearcher.stephinreji.me__Pixel_2_ccp0ai.png",
-      gitLink: "",
+      gitLink: "https://github.com/stephin007/githubfinder",
     },
     5: {
       title: "A Currency Convertor App||Made using ReactJS",
@@ -39,7 +39,7 @@ const ProjectData = {
       projLink: "https://currencyconvertor.stephinreji.me/",
       imgLink:
         "https://res.cloudinary.com/stephin/image/upload/v1604627740/portfolio/currencyconvertor.stephinreji.me__Moto_G4_v5xir7.png",
-      gitLink: "",
+      gitLink: "https://github.com/stephin007/currencyconvertor",
     },
     6: {
       title: "A Weather Application||Made using ReactJS",
@@ -47,7 +47,7 @@ const ProjectData = {
       projLink: "https://weatherman.stephinreji.me/",
       imgLink:
         "https://res.cloudinary.com/stephin/image/upload/v1604627790/portfolio/weatherman.stephinreji.me__Moto_G4_neiw2k.png",
-      gitLink: "",
+      gitLink: "https://github.com/For-Community/WeatherMan",
     },
     7: {
       title: "Photographer's Portfolio||Made using HTML/CSS",
@@ -55,7 +55,7 @@ const ProjectData = {
       projLink: "https://chitrahaar.stephinreji.me/",
       imgLink:
         "https://res.cloudinary.com/stephin/image/upload/v1604627857/portfolio/chitrahaar.stephinreji.me__Moto_G4_ckx7b2.png",
-      gitLink: "",
+      gitLink: "https://github.com/stephin007/photography_portfolio",
     },
     8: {
       title: "PipBoy||Made using Bootstrap",
@@ -63,7 +63,7 @@ const ProjectData = {
       projLink: "https://pipboy.stephinreji.me/",
       imgLink:
         "https://res.cloudinary.com/stephin/image/upload/v1604627956/portfolio/pipboy.stephinreji.me__custom-laptop_eywh6j.png",
-      gitLink: "",
+      gitLink: "https://github.com/stephin007/pipboy",
     },
   },
   allIDs: [1, 2, 3, 4, 5, 6, 7, 8],
