@@ -37,7 +37,7 @@ class Portfolio extends Component {
                         className="icon-github"
                         style={{
                           display:
-                            ProjectData.byID[id].projLink !== ""
+                            ProjectData.byID[id].gitLink !== ""
                               ? "block"
                               : "none",
                         }}
