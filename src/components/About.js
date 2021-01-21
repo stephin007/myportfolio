@@ -114,9 +114,6 @@ class About extends Component {
                             width: `${AboutData.interpersonalSkills.communication}%`,
                           }}
                         ></div>
-                        <div className="skill-percent">
-                          {AboutData.interpersonalSkills.communication}%
-                        </div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
@@ -128,9 +125,6 @@ class About extends Component {
                             width: `${AboutData.interpersonalSkills.customerServiceSkills}%`,
                           }}
                         ></div>
-                        <div className="skill-percent">
-                          {AboutData.interpersonalSkills.customerServiceSkills}%
-                        </div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
@@ -142,9 +136,6 @@ class About extends Component {
                             width: `${AboutData.interpersonalSkills.teamWork}%`,
                           }}
                         ></div>
-                        <div className="skill-percent">
-                          {AboutData.interpersonalSkills.teamWork}%
-                        </div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
@@ -156,9 +147,6 @@ class About extends Component {
                             width: `${AboutData.interpersonalSkills.attentionToDetail}%`,
                           }}
                         ></div>
-                        <div className="skill-percent">
-                          {AboutData.interpersonalSkills.attentionToDetail}%
-                        </div>
                       </div>
                     </div>
                   </div>

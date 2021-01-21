@@ -37,7 +37,7 @@ const AboutData = {
             website: "https://getcerta.com",
             timeline: 'January 2021 - Present',
             jobTitle: "Customer Success Analyst",
-            responsibilities: ""
+            responsibilities: [" Configure JSON struture for demos to potential clients"]
         },
         2: {
             company: "Tekie",
