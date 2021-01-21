@@ -87,7 +87,7 @@ class About extends Component {
                         download="Stephin's Resume"
                         className="bn"
                         target="_blank"
-                        rel="noopener noreferrer" 
+                        rel="noopener noreferrer"
                       >
                         Download Resume
                       </a>
@@ -95,7 +95,7 @@ class About extends Component {
                         href={require("../assets/resume.pdf")}
                         className="bn"
                         target="_blank"
-                        rel="noopener noreferrer" 
+                        rel="noopener noreferrer"
                       >
                         View Resume
                       </a>
@@ -105,50 +105,19 @@ class About extends Component {
                 <div className="skills padd-15">
                   <div className="row">
                     <h3 className="pi-title padd-15">Interpersonal Skills</h3>
-                    <div className="skill-item padd-15">
-                      <h5>Communication</h5>
-                      <div className="progress">
-                        <div
-                          className="progress-in"
-                          style={{
-                            width: `${AboutData.interpersonalSkills.communication}%`,
-                          }}
-                        ></div>
+                    {AboutData.interpersonalSkillIDs.map((id) => (
+                      <div className="skill-item padd-15">
+                        <h5>{id}</h5>
+                        <div className="progress">
+                          <div
+                            className="progress-in"
+                            style={{
+                              width: `${AboutData.interpersonalSkills[id]}%`,
+                            }}
+                          ></div>
+                        </div>
                       </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Customer Service Skills</h5>
-                      <div className="progress">
-                        <div
-                          className="progress-in"
-                          style={{
-                            width: `${AboutData.interpersonalSkills.customerServiceSkills}%`,
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Team Work</h5>
-                      <div className="progress">
-                        <div
-                          className="progress-in"
-                          style={{
-                            width: `${AboutData.interpersonalSkills.teamWork}%`,
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Attention to Detail</h5>
-                      <div className="progress">
-                        <div
-                          className="progress-in"
-                          style={{
-                            width: `${AboutData.interpersonalSkills.attentionToDetail}%`,
-                          }}
-                        ></div>
-                      </div>
-                    </div>
+                    ))}
                   </div>
                 </div>
                 <div className="skills padd-15" id="computerskills">
@@ -164,9 +133,6 @@ class About extends Component {
                               width: `${AboutData.computerSkills[id]}%`,
                             }}
                           ></div>
-                          <div className="skill-percent">
-                            {AboutData.computerSkills[id]}%
-                          </div>
                         </div>
                       </div>
                     ))}
@@ -187,9 +153,6 @@ class About extends Component {
                               width: `${AboutData.languageSkills[id]}%`,
                             }}
                           ></div>
-                          <div className="skill-percent">
-                            {AboutData.languageSkills[id]}%
-                          </div>
                         </div>
                       </div>
                     ))}
