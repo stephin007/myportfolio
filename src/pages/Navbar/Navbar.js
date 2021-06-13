@@ -1,8 +1,8 @@
 import React, { Fragment, Component } from "react";
 import { Link } from "react-router-dom";
-import sun from "../assets/sun.svg";
-import moon from "../assets/moon.svg";
-import "../css/navbar.css";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import "./navbar.css";
 
 class Navbar extends Component {
   state = {

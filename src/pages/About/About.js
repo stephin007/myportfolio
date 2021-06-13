@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import AboutData from "../data/AboutData";
+import AboutData from "../../data/AboutData";
 
-import "../css/about.css";
+import "./about.css";
 
 class About extends Component {
   render() {
@@ -83,7 +83,7 @@ class About extends Component {
                   <div className="row">
                     <div className="buttons padd-15">
                       <a
-                        href={require("../assets/resume.pdf")}
+                        href={require("../../assets/resume.pdf")}
                         download="Stephin's Resume"
                         className="bn"
                         target="_blank"
@@ -92,7 +92,7 @@ class About extends Component {
                         Download Resume
                       </a>
                       <a
-                        href={require("../assets/resume.pdf")}
+                        href={require(`../../assets/resume.pdf`)}
                         className="bn"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -188,7 +188,6 @@ class About extends Component {
                               </span>{" "}
                               <br />
                               <div className="underline">
-                                {/* {" "} */}
                                 Work Responsibility
                               </div>
                               <br />

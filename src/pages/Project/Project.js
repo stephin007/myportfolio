@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
-import ProjectData from "../data/ProjectData";
+import ProjectData from "../../data/ProjectData";
 
-import "../css/project.css";
+import "./project.css";
 
 class Portfolio extends Component {
   render() {
