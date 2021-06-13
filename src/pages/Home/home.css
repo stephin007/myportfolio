@@ -1,94 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
-.section{
-    background-color: #f2f2fc;
-    min-height: 50vh;
-    display: block;
-    
+.section {
+  background-color: #f2f2fc;
+  min-height: 50vh;
+  display: block;
 }
 
-.container{
-    width: 100%;
-    margin: auto;
+.container {
+  width: 100%;
+  margin: auto;
 }
 
-.shadow-img{
-    -webkit-box-shadow: 0 0 40px rgba(48,46,77,0.6);
-    box-shadow: 0 0 40px rgba(48,46,77,0.6);
+.shadow-img {
+  -webkit-box-shadow: 0 0 40px rgba(48, 46, 77, 0.6);
+  box-shadow: 0 0 40px rgba(48, 46, 77, 0.6);
 }
 
-.home{
-    min-height: 100vh;
-    display: -ms-flexbox;
-    display: flex;
+.home {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.home .intro{
-    text-align: center;
+.home .intro {
+  text-align: center;
 }
 
-.home .intro img{
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 100%;
-    display: inline-block;
+.home .intro img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  display: inline-block;
 }
 
-.home .intro h1{
-    font-size: 35px;
-    color: black;
-    font-weight: 100;
-    margin: 20px 0 8px;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 5px;
+.home .intro h1 {
+  font-size: 35px;
+  color: black;
+  font-weight: 100;
+  margin: 20px 0 8px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 5px;
 }
 
-.home .intro p{
-    font-size: 16px;
-    font-weight: 600;
-    margin: 0;
-    font-family: 'Inconsolata', monospace;
-    line-height: 22px;
-    color: #ca8f20;
+.home .intro p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+  line-height: 22px;
+  color: #ca8f20;
 }
 
-.home .intro .social-links{
-    margin-top: 25px;
-}
-
-.home .intro .social-links a{
-    height: 35px;
-    width: 35px;
-    margin-left: 10px;
-    background-color: goldenrod;
-    display: inline-block;
-    text-align: center;
-    line-height: 35px;
-    color: black;
-    border-radius: 50%;
-    text-decoration: none;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.home .intro .social-links a:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+.home .intro .social-links {
+  margin-top: 25px;
 }
 
 /* Responsive */
 
-@media (max-width: 1199px){
-    .main-content{
-        padding-left: 0;
-    }
-    .home .intro img{
+@media (max-width: 1199px) {
+  .main-content {
+    padding-left: 0;
+  }
+  .home .intro img {
     height: 200px;
     width: 200px;
     object-fit: cover;
     border-radius: 100%;
     display: inline-block;
-}
+  }
 }

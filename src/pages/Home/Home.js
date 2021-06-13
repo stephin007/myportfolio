@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import SocialButton from "../../library/components/SocialButton";
 
+import SocialLinks from "../../data/SocialLinks";
 import "./home.css";
 
 class Home extends Component {
@@ -21,7 +23,19 @@ class Home extends Component {
                   constantly striving for change and betterment
                 </p>
                 <div className="social-links">
-                  <a
+                  {SocialLinks.map((Sociallink, index) => {
+                    const { link, classes } = Sociallink;
+                    return (
+                      <>
+                        <SocialButton
+                          socialLink={link}
+                          iconClass={classes}
+                          key={index}
+                        />
+                      </>
+                    );
+                  })}
+                  {/* <a
                     href="https://github.com/stephin007"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -63,7 +77,7 @@ class Home extends Component {
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-instagram" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
