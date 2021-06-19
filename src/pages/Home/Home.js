@@ -35,49 +35,6 @@ class Home extends Component {
                       </>
                     );
                   })}
-                  {/* <a
-                    href="https://github.com/stephin007"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-github" />
-                  </a>
-                  <a
-                    href="https://blog.stephinreji.me"
-                    aly="stephin reji's blog"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fas fa-blog" />
-                  </a>
-                  <a
-                    href="https://twitter.com/reji_stephin"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a
-                    href="https://wa.me/918860102173?text=Would%20love%20to%20talk%20with%20you"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-whatsapp" />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/stephinreji"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-linkedin" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/the_spectacled_one/?hl=en"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a> */}
                 </div>
               </div>
             </div>

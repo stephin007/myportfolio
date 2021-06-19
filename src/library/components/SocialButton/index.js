@@ -6,7 +6,12 @@ import "./socialButton.css";
 const SocialButton = ({ socialLink, iconClass }) => {
   return (
     <>
-      <a href={socialLink} target="_blank" rel="noopener noreferrer">
+      <a
+        href={socialLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="socialButton_a"
+      >
         <i className={iconClass} />
       </a>
     </>
