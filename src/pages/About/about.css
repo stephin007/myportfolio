@@ -1,429 +1,419 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
-*{
-    font-family: 'Inconsolata', monospace;
+* {
+  font-family: "Inconsolata", monospace;
 }
 
-.section .container{
-    padding-top: 50px;
-    padding-bottom: 70px;
-    background-color: #f2f2fc;
-    min-height: 100vh;
+.section .container {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #f2f2fc;
+  min-height: 100vh;
 }
 
-.about{
-    min-height: 100vh;
+.about {
+  min-height: 100vh;
 }
-.section-title{
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.section-title h2{
-    font-size: 40px;
-    color: goldenrod;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 3px;
-    font-weight: 700;
-    margin: 0;
-    position: relative;
-    margin-bottom: 60px;
+.section-title {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
-.section-title h2::before{
-    content: '';
-    height: 4px;
-    width: 50px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: black;
+.section-title h2 {
+  font-size: 40px;
+  color: goldenrod;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin: 0;
+  position: relative;
+  margin-bottom: 60px;
 }
 
-.section-title h2::after{
-    content: '';
-    height: 4px;
-    width: 25px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    margin-top: 8px;
-    background-color: black;
+.section-title h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
 }
 
-.row{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    position: relative;
+.section-title h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background-color: black;
 }
 
-.padd-15{
-    padding-left: 15px;
-    padding-right: 15px;
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  position: relative;
 }
 
-.about .about-content{
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.about .about-content .about-text{
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+.about .about-content {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
-.about .about-content .about-text h3{
-    font-size: 24px;
-    margin-bottom: 15px;
-    font-weight: 700;
-    font-family: 'Inconsolata', monospace;
+.about .about-content .about-text {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
-.about .about-content .about-text h3 span{
-    color: goldenrod;
-    font-family: 'Inconsolata', monospace;
+.about .about-content .about-text h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: "Inconsolata", monospace;
 }
 
-.about .about-content .about-text p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 25px;
+.about .about-content .about-text h3 span {
+  color: goldenrod;
+  font-family: "Inconsolata", monospace;
+}
+
+.about .about-content .about-text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #86785c;
+  margin: 0;
+}
+
+.pi-title {
+  color: goldenrod;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.about .about-content .personal-info {
+  /* background-color: red; */
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 25px;
+}
+
+.about .about-content .personal-info .info-item {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+#language {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .personal-info .info-item p {
+  font-weight: 600;
+  padding: 16.5px 0;
+  font-size: 16px;
+  margin: 0;
+  border-bottom: 1px solid #e8dfec;
+}
+
+.about .about-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: #86785c;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.about .about-content .personal-info .info-item p span a {
+  color: #86785c;
+  animation: blinkingText 1.5s infinite;
+}
+
+@keyframes blinkingText {
+  0% {
     color: #86785c;
-    margin: 0;
-}
-
-.pi-title{
+  }
+  49% {
+    color: #86785c;
+  }
+  60% {
     color: goldenrod;
-    font-size: 24px;
-    font-weight: 700;
-    padding-bottom: 30px;
-}
-
-.about .about-content .personal-info{
-    /* background-color: red; */
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 25px;
-}
-
-.about .about-content .personal-info .info-item{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
-#language{
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.about .about-content .personal-info .info-item p{
-    font-weight: 600;
-    padding: 16.5px 0;
-    font-size: 16px;
-    margin: 0;
-    border-bottom: 1px solid #e8dfec;
-}
-
-.about .about-content .personal-info .info-item p span{
-    font-weight: 400;
-    color: #86785c;
-    margin-left: 4px;
-    display: inline-block;
-}
-
-.about .about-content .personal-info .info-item p span a{
-    color: #86785c;
-    animation:blinkingText 1.5s infinite;
-}
-
-@keyframes blinkingText{
-    0%{     color: #86785c;    }
-    49%{    color: #86785c; }
-    60%{    color: goldenrod; }
-    99%{    color: goldenrod;  }
-    100%{   color: goldenrod;    }
-}
-
-.about .about-content .personal-info .buttons{
-    margin-top: 30px;
-}
-
-.bn{
-    font-size: 16px;
-    background-color: goldenrod;
-    font-weight: 600;
-    padding: 9px 27px;
-    color: black;
-    border-radius: 40px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    display: inline-block;
-    white-space: nowrap;
-}
-
-.bn:hover{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
-
-
-.about .about-content .personal-info .buttons .bn{
-    margin-right: 15px; 
-    margin-top: 10px;
-}
-
-.about .about-content .skills{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 35px;
-}
-
-#computerskills{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
-#tools{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
-.about .about-content .skills .skill-item{
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.about .about-content .skills .skill-item h5{
-    line-height: 19px;
-    font-weight: 600;
-    color: black;
-    font-size: 16px;
-    text-transform: capitalize;
-    margin: 0;
-}
-
-.about .about-content .skills .skill-item .progress{
-    background-color: #e3e3e3;
-    height: 7px;
-    border-radius: 4px;
-    width: 100%;
-    position: relative;
-}
-
-.about .about-content .skills .skill-item{
-    margin-bottom: 30px;
-}
-
-.about .about-content .skills .skill-item .progress .progress-in{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background-color: goldenrod;
-    border-radius: 4px;
-}
-
-.about .about-content .skills .skill-item .skill-percent{
-    /* display: none; */
-    line-height: 40px;
-    position: absolute;
-    right: 0;
-    top: -35px;
-    font-weight: 400;
-    color: #86785c;
-}
-
-.about .about-content .education{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 30px;
-}
-
-.about .about-content .experience{
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    margin-top: 30px;
-}
-
-.about .about-content h3.title{
-    font-size: 24px;
-    margin-bottom: 30px;
-    font-weight: 700;
+  }
+  99% {
     color: goldenrod;
-    font-family: 'Inconsolata', monospace;
+  }
+  100% {
+    color: goldenrod;
+  }
 }
 
-.about .about-content .timeline-box{
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+.about .about-content .personal-info .buttons {
+  margin-top: 30px;
 }
 
-.about .about-content .timeline{
-    background-color: #fdf9ff;
-    padding: 30px 15px;
-    border: 1px solid #d4d4e3;
-    border-radius: 10px;
-    width: 100%;
-    position: relative;
-    -webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
-    box-shadow: 0 0 20px rgba(48,46,77,0.15);
+.about .about-content .personal-info .buttons .bn {
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
-.about .about-content .timeline .timeline-item{
-    position: relative;
-    padding-left: 37px;
-    padding-bottom: 50px;
+.about .about-content .skills {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 35px;
 }
 
-.about .about-content .timeline .timeline-item:last-child{
-    padding-bottom: 0;
+#computerskills {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
-.about .about-content .timeline .timeline-item::before{
-    content: '';
-    width: 1px;
-    position: absolute;
-    height: 100%;
-    left: 7px;
-    top: 0;
-    background-color: goldenrod;
+#tools {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 
-.about .about-content .timeline .circle-dot{
-    position: absolute;
-    left: 0;
-    top: 0px;
-    height: 15px;
-    width: 15px;
-    left: 0px;
-    border-radius: 50%;
-    background-color: goldenrod;
-}
-.about .about-content .timeline .timeline-date{
-   font-size: 14px;
-   font-weight: 400; 
-   margin-top: -5px;
-   color: #86785c;
-   margin-bottom: 12px;
+.about .about-content .skills .skill-item {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
-.about .about-content .timeline .timeline-date .fa{
-    margin-right: 5px;
+.about .about-content .skills .skill-item h5 {
+  line-height: 19px;
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 0;
 }
 
+.about .about-content .skills .skill-item .progress {
+  background-color: #e3e3e3;
+  height: 7px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
 
-.about .about-content .timeline .timeline-title{
-    font-weight: 700;
-    display: flex;
-    font-size: 18px;
-    margin-bottom: 15px;
-    text-transform: capitalize;
-    /* color: black; */
+.about .about-content .skills .skill-item {
+  margin-bottom: 30px;
+}
+
+.about .about-content .skills .skill-item .progress .progress-in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: goldenrod;
+  border-radius: 4px;
+}
+
+.about .about-content .skills .skill-item .skill-percent {
+  /* display: none; */
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  top: -35px;
+  font-weight: 400;
+  color: #86785c;
+}
+
+.about .about-content .education {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+.about .about-content .experience {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+.about .about-content h3.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: goldenrod;
+  font-family: "Inconsolata", monospace;
+}
+
+.about .about-content .timeline-box {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.about .about-content .timeline {
+  background-color: #fdf9ff;
+  padding: 30px 15px;
+  border: 1px solid #d4d4e3;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.about .about-content .timeline .timeline-item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+
+.about .about-content .timeline .timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.about .about-content .timeline .timeline-item::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
+  background-color: goldenrod;
+}
+
+.about .about-content .timeline .circle-dot {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 15px;
+  width: 15px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: goldenrod;
+}
+.about .about-content .timeline .timeline-date {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -5px;
+  color: #86785c;
+  margin-bottom: 12px;
+}
+
+.about .about-content .timeline .timeline-date .fa {
+  margin-right: 5px;
+}
+
+.about .about-content .timeline .timeline-title {
+  font-weight: 700;
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  /* color: black; */
 }
 
 .about .about-content .timeline .timeline-title .company-website {
-    font-size: 17px;
-    color: black;
-    margin-left: auto;
-    text-decoration: underline;
+  font-size: 17px;
+  color: black;
+  margin-left: auto;
+  text-decoration: underline;
 }
 
-
-.about .about-content .timeline .timeline-text{
-    font-size: 16px;
-    line-height: 25px;
-    color: #86785c;
-    margin: 0;
+.about .about-content .timeline .timeline-text {
+  font-size: 16px;
+  line-height: 25px;
+  color: #86785c;
+  margin: 0;
 }
 
-.about .about-content .timeline .timeline-text span{
-    font-weight: 500;
-    color: black;
+.about .about-content .timeline .timeline-text span {
+  font-weight: 500;
+  color: black;
 }
 
-.underline{
-    text-decoration: underline;
-    display: inline;
+.underline {
+  text-decoration: underline;
+  display: inline;
 }
 
 /* Responsive */
- 
-@media (max-width: 1199px){
-    .about .about-content .personal-info .info-item p span{
-        display: inline-block;
-    }
+
+@media (max-width: 1199px) {
+  .about .about-content .personal-info .info-item p span {
+    display: inline-block;
+  }
 }
 
-@media (max-width: 995px){
-    .about .about-content .personal-info .info-item p span{
-        display: block;
-        margin-left: 0;
-        padding-top: 5px;
-    }
+@media (max-width: 995px) {
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+    padding-top: 5px;
+  }
 }
 
-@media (max-width: 767px){
-    .about .about-content .experience,
-    .about .about-content .education,
-    .about .about-content .skills,
-    .about .about-content .personal-info{
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    #computerskills, #tools{
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%; 
-    }
+@media (max-width: 767px) {
+  .about .about-content .experience,
+  .about .about-content .education,
+  .about .about-content .skills,
+  .about .about-content .personal-info {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #computerskills,
+  #tools {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
-@media (max-width: 418px){
-    .about .about-content .personal-info .info-item p span{
-        display: block;
-        margin-left: 0;
-        padding-top: 5px;
-        font-size: 14px;
-    }
+@media (max-width: 418px) {
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+    padding-top: 5px;
+    font-size: 14px;
+  }
 
-    .about .about-content .personal-info .info-item p{
-        display: block;
-        margin-left: 0;
-        padding-top: 5px;
-        font-size: 15px;
-    }
+  .about .about-content .personal-info .info-item p {
+    display: block;
+    margin-left: 0;
+    padding-top: 5px;
+    font-size: 15px;
+  }
 }
 
-@media (max-width: 375px){
-    .about .about-content .personal-info .info-item p span{
-        display: block;
-        margin-left: 0;
-        padding-top: 5px;
-        font-size: 12px;
-    }
+@media (max-width: 375px) {
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+    padding-top: 5px;
+    font-size: 12px;
+  }
 
-    .about .about-content .personal-info .info-item p{
-        display: block;
-        margin-left: 0;
-        padding-top: 5px;
-        font-size: 13px;
-    }
+  .about .about-content .personal-info .info-item p {
+    display: block;
+    margin-left: 0;
+    padding-top: 5px;
+    font-size: 13px;
+  }
 }
