@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import AboutData from "../../data/AboutData";
+import ResumeButton from "../../library/components/ResumeButton";
 
 import "./about.css";
 
@@ -72,15 +73,7 @@ class About extends Component {
                   </div>
                   <div className="row">
                     <div className="buttons padd-15">
-                      <a
-                        href={require("../../assets/resume.pdf")}
-                        download="Stephin's Resume"
-                        className="bn"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Download Resume
-                      </a>
+                      <ResumeButton buttonText="Download Resume" />
                       <a
                         href={require(`../../assets/resume.pdf`)}
                         className="bn"
