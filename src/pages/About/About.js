@@ -56,16 +56,6 @@ class About extends Component {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone :{" "}
-                        <span>
-                          <a href="tel:+91 8920 788 383">
-                            {AboutData.personalInformation.phone}
-                          </a>
-                        </span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
                         City : <span>{AboutData.personalInformation.city}</span>
                       </p>
                     </div>

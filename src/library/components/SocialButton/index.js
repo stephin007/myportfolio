@@ -1,19 +1,37 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styled from "styled-components";
 
-import "./socialButton.css";
+const StyledSocialButton = styled.a`
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  background-color: goldenrod;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  color: black;
+  border-radius: 50%;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+`;
 
 const SocialButton = ({ socialLink, iconClass }) => {
   return (
     <>
-      <a
+      <StyledSocialButton
         href={socialLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="socialButton_a"
       >
         <i className={iconClass} />
-      </a>
+      </StyledSocialButton>
     </>
   );
 };
