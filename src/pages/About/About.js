@@ -72,15 +72,11 @@ const About = () => {
                 </div>
                 <div className="row">
                   <div className="buttons padd-15">
-                    <ResumeButton buttonText="Download Resume" />
-                    <a
-                      href={require(`../../assets/resume.pdf`)}
-                      className="bn"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Resume
-                    </a>
+                    <ResumeButton
+                      buttonText="Download Resume"
+                      download="true"
+                    />
+                    <ResumeButton buttonText="View Resume" download="false" />
                   </div>
                 </div>
               </div>
