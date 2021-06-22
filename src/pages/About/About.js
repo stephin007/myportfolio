@@ -1,6 +1,6 @@
 import React from "react";
 import AboutData from "../../data/AboutData";
-import ResumeButton from "../../library/components/ResumeButton";
+import { ResumeButton } from "../../library";
 
 import "./about.css";
 
@@ -98,7 +98,7 @@ const About = () => {
                   ))}
                 </div>
               </div>
-              <div className="skills padd-15" id="computerskills">
+              <div className="skills padd-15">
                 <div className="row">
                   <h3 className="pi-title padd-15">Computer Skills</h3>
                   {AboutData.computerSkillIDs.map((id) => (
@@ -116,7 +116,7 @@ const About = () => {
                   ))}
                 </div>
               </div>
-              <div className="skills padd-15" id="tools">
+              <div className="skills padd-15">
                 <div className="row">
                   <h3 className="pi-title padd-15">
                     Languages/Tools/Libraries

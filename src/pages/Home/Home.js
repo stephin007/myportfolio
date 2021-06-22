@@ -1,5 +1,5 @@
 import React from "react";
-import SocialButton from "../../library/components/SocialButton";
+import { SocialButton } from "../../library";
 
 import SocialLinks from "../../data/SocialLinks";
 import "./home.css";
