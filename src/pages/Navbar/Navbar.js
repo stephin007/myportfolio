@@ -7,14 +7,6 @@ import "./navbar.css";
 const Navbar = ({ toggleTheme, theme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = () => {
-    setIsOpen(true);
-  };
-
-  const closeNav = () => {
-    setIsOpen(false);
-  };
-
   return (
     <>
       <nav>
@@ -22,7 +14,7 @@ const Navbar = ({ toggleTheme, theme }) => {
           <div className="logo">
             <Link
               to="/"
-              onClick={() => closeNav}
+              onClick={() => setIsOpen(false)}
               aria-label="Homepage"
               alt="Homepage"
             >
@@ -42,7 +34,7 @@ const Navbar = ({ toggleTheme, theme }) => {
             <button
               aria-label="Main menu"
               className="btn"
-              onClick={() => handleClick}
+              onClick={() => setIsOpen(!isOpen)}
             >
               <div className="bar"></div>
               <div className="bar"></div>
@@ -53,17 +45,17 @@ const Navbar = ({ toggleTheme, theme }) => {
 
         <ul className={isOpen ? "showNav" : "undefined"} data-testid="navbar">
           <li>
-            <Link to="/" onClick={() => closeNav} alt="home">
+            <Link to="/" onClick={() => setIsOpen(false)} alt="home">
               HOME
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={() => closeNav} alt="about">
+            <Link to="/about" onClick={() => setIsOpen(false)} alt="about">
               ABOUT
             </Link>
           </li>
           <li>
-            <Link to="/projects" onClick={() => closeNav} alt="project">
+            <Link to="/projects" onClick={() => setIsOpen(false)} alt="project">
               PROJECTS
             </Link>
           </li>
@@ -72,7 +64,7 @@ const Navbar = ({ toggleTheme, theme }) => {
               href="https://blog.stephinreji.me"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => closeNav}
+              onClick={() => setIsOpen(false)}
               alt="project"
             >
               BLOG
