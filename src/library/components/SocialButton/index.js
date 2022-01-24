@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const StyledSocialButton = styled.a`
@@ -34,11 +33,6 @@ const SocialButton = ({ socialLink, iconClass }) => {
       </StyledSocialButton>
     </>
   );
-};
-
-SocialButton.propTypes = {
-  socialLink: PropTypes.string.isRequired,
-  iconClass: PropTypes.string.isRequired,
 };
 
 export default SocialButton;
