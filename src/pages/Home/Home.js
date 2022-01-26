@@ -22,8 +22,7 @@ const Home = () => {
                 constantly striving for change and betterment
               </p>
               <div className="social-links">
-                {SocialLinks.map((Sociallink, index) => {
-                  const { link, classes } = Sociallink;
+                {SocialLinks.map(({ link, classes }, index) => {
                   return (
                     <>
                       <SocialButton
